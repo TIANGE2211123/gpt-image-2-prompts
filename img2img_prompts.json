@@ -1,0 +1,432 @@
+{
+  "meta": {
+    "title": "Curated Img2Img Prompts (Nano Banana / Seedream / Flux era)",
+    "version": "1.0.0",
+    "updated": "2026-05-15",
+    "count": 50,
+    "description": "50 ready-to-use image-to-image (img2img) prompts curated from popular prompt-sharing sites in 2025-2026. Each prompt is designed to be pasted directly into Nano Banana 2 / Nano Banana Pro / Gemini 2.5 Flash Image / Seedream 4 / Flux Kontext / GPT Image 2 with a reference image attached.",
+    "sources": [
+      "https://aiagentskit.com/blog/best-nano-banana-image-generation-prompts/",
+      "https://www.imagine.art/blogs/nano-banana-pro-prompt-guide",
+      "https://github.com/ZeroLu/awesome-nanobanana-pro",
+      "https://pxz.ai/zh/blog/40-best-nano-banana-prompts-2025-copy-and-paste-for-instant-results",
+      "https://www.img-2-img.com/prompts",
+      "https://www.promptlibrary.space",
+      "https://nanoprompts.org/"
+    ],
+    "categories": [
+      "portrait",
+      "product",
+      "style_transfer",
+      "vintage",
+      "fashion",
+      "3d_figure",
+      "background_replace",
+      "photo_enhance",
+      "creative",
+      "viral"
+    ]
+  },
+  "prompts": [
+    {
+      "id": 1,
+      "title": "LinkedIn Executive Headshot",
+      "category": "portrait",
+      "tags": ["headshot", "professional", "studio"],
+      "models": ["nano-banana-2", "seedream-4", "flux-kontext"],
+      "prompt": "LinkedIn-style executive headshot, half body (chest up), face directly to camera with body slightly turned. Calm confident smile, wavy hair, sleeveless black dress, minimal professional aesthetic. Soft directional key light from 45 degrees, light gray smooth gradient background, clean separation. 50mm lens simulation, shallow depth of field. Keep facial features 100% identical to the reference image."
+    },
+    {
+      "id": 2,
+      "title": "Silicon Valley Founder Portrait",
+      "category": "portrait",
+      "tags": ["business", "tech", "studio"],
+      "models": ["nano-banana-pro", "seedream-4"],
+      "prompt": "Convert this casual photo into a studio business headshot in Silicon Valley founder style. 85mm f/1.8 lens, three-point lighting setup with soft key light, fill light, and rim light. Charcoal slim-fit blazer over white tee, neutral seamless backdrop. Subtle confident expression. Preserve the exact face, hairstyle and skin texture from the reference. Sharp eye catchlights, natural skin pores, no plastic smoothing."
+    },
+    {
+      "id": 3,
+      "title": "Korean Haima Studio Portrait",
+      "category": "portrait",
+      "tags": ["korean", "studio", "fresh"],
+      "models": ["nano-banana-2", "seedream-4"],
+      "prompt": "Young East Asian woman, long black hair, off-shoulder cream top, holding a strawberry and a grapefruit slice as props. Soft natural light, clean white seamless background, shallow depth of field. 8K hyperrealistic, delicate makeup with pink blush and glossy lips, cinematic color grade, minimalist composition. Keep the subject's identity and facial features identical to the reference image."
+    },
+    {
+      "id": 4,
+      "title": "Sporty Girlfriend Photoshoot",
+      "category": "portrait",
+      "tags": ["fitness", "natural-light", "lifestyle"],
+      "models": ["nano-banana-pro"],
+      "prompt": "Young woman with high ponytail, white tight sports tank, gray yoga pants, white dad sneakers. Sitting on the edge of a white table, body twisted slightly, holding a glass cup, soft confident gaze. Pure white photography studio, high-key bright natural light, diffused window light from the left, reflector fill from the right, window-grid shadow adds depth. 85mm prime lens, slightly lifted contrast, preserving pores and fine hair. Light film grain. 3:4 aspect ratio. Keep the same person as in the reference."
+    },
+    {
+      "id": 5,
+      "title": "Times Square Night Portrait",
+      "category": "portrait",
+      "tags": ["cinematic", "night", "city"],
+      "models": ["nano-banana-2", "flux-kontext"],
+      "prompt": "Photorealistic portrait of the reference person standing in the heart of Times Square at night in New York City. Wears a black turtleneck, gray wool coat, and white sneakers. Massive billboards, neon signs, yellow taxi cabs, light bokeh and faint motion blur from passing traffic. Cinematic composition, low ISO clean shadows, 35mm lens. Keep the facial identity unchanged."
+    },
+    {
+      "id": 6,
+      "title": "Rainy City Noir",
+      "category": "portrait",
+      "tags": ["noir", "moody", "rain"],
+      "models": ["nano-banana-pro", "seedream-4"],
+      "prompt": "Ultra-realistic cinematic photograph of the subject in a rainy city at night, noir aesthetic, moody urban streets with glowing streetlights and neon bokeh, wet asphalt reflections, heavy rain falling, intense expression, wet hair, water droplets on jacket. Anamorphic lens flare, teal-and-orange grade, 2.39:1 letterbox. Maintain the same person as in the reference image."
+    },
+    {
+      "id": 7,
+      "title": "Paris Fashion Week Runway",
+      "category": "fashion",
+      "tags": ["runway", "high-fashion", "editorial"],
+      "models": ["nano-banana-2"],
+      "prompt": "Cinematic high-fashion runway photograph of the reference subject walking at Paris Fashion Week. Captured mid-stride with confident walk, intense forward gaze, strong posture, commanding presence. Designer black tailored suit, glossy leather boots, dramatic side lighting, audience seated in shadow on both sides, slight motion blur on the legs. Vogue editorial aesthetic. Keep the face and hairstyle identical to the reference."
+    },
+    {
+      "id": 8,
+      "title": "70s Polaroid Family Photo",
+      "category": "vintage",
+      "tags": ["polaroid", "70s", "nostalgia"],
+      "models": ["nano-banana-2"],
+      "prompt": "1970s vintage family photo style transformation. Polaroid SX-70 frame with characteristic white edges, slight yellowing, minor creases. Place the reference subject in a 70s living room with wood-paneled walls, brown corduroy sofa, mustard curtains, vinyl records on a shelf. Warm amber tungsten lighting, soft focus, heavy film grain, faded color cast. Keep the subject's face identity unchanged."
+    },
+    {
+      "id": 9,
+      "title": "1990s Magazine Cover Look",
+      "category": "vintage",
+      "tags": ["90s", "magazine", "flash"],
+      "models": ["nano-banana-pro"],
+      "prompt": "Convert the reference into a 1990s magazine cover portrait. Direct on-camera flash with hard shadows, slightly oversaturated colors, magazine poster background with bold typography blurred behind, denim jacket and choker. Heavy 35mm film grain, slightly washed-out blacks, cyan tint in shadows. Keep the original face, eyes and lips identical to the reference."
+    },
+    {
+      "id": 10,
+      "title": "Y2K Bedroom Mirror Selfie",
+      "category": "vintage",
+      "tags": ["y2k", "selfie", "bedroom"],
+      "models": ["nano-banana-2"],
+      "prompt": "{\"edit_type\":\"casual_mirror_selfie\",\"era\":\"early_2000s\",\"camera\":\"compact_digital_with_flash\",\"setting\":\"teenager_bedroom\",\"props\":[\"lava_lamp\",\"translucent_flip_phone\",\"butterfly_clips\",\"posters\"],\"outfit\":\"low_rise_jeans_cropped_tank\",\"lighting\":\"harsh_direct_flash\",\"film_look\":\"heavy_grain_blue_shadows\",\"preserve\":[\"face\",\"hair\",\"body_proportions\"]}"
+    },
+    {
+      "id": 11,
+      "title": "Victorian Daguerreotype Ghost",
+      "category": "vintage",
+      "tags": ["victorian", "ghost", "bw"],
+      "models": ["nano-banana-pro"],
+      "prompt": "Convert the reference subject to a black-and-white daguerreotype ghost. Semi-transparent Victorian mourning clothes, lace veil, faded edges. Wet plate photography effect, silver tarnish, slight blur, scratches and dust on the plate. Period-accurate 1870s parlor with heavy curtains and oil lamps. Solemn expression, long exposure motion blur. Keep the original facial structure recognizable."
+    },
+    {
+      "id": 12,
+      "title": "1980s Arcade Hall Scene",
+      "category": "vintage",
+      "tags": ["80s", "arcade", "neon"],
+      "models": ["nano-banana-2"],
+      "prompt": "Place the reference subject in a vibrant 1980s arcade scene. Standing before glowing arcade cabinets, neon pink and cyan light wash, oversized windbreaker with bold geometric pattern, mullet hair, white sneakers. Pac-Man and Galaga screens visible, faint smoke in the air, VHS aesthetic, strong on-camera flash with hard shadows. Slight chromatic aberration. Keep the face exactly as in the reference."
+    },
+    {
+      "id": 13,
+      "title": "1/7 Scale Collectible Figure",
+      "category": "3d_figure",
+      "tags": ["figure", "bandai", "collectible"],
+      "models": ["nano-banana-2", "seedream-4"],
+      "prompt": "Turn the reference subject into a 1/7 scale collectible PVC figure displayed on a wooden desk. Behind the figure, a computer monitor shows a ZBrush sculpting wireframe of the same character. To the side, a BANDAI-style packaging box with printed art of the figure. Soft product photography lighting, shallow depth of field, realistic plastic shading, fine paint detail on face and clothes."
+    },
+    {
+      "id": 14,
+      "title": "Knitted Plush Toy",
+      "category": "3d_figure",
+      "tags": ["plush", "yarn", "cute"],
+      "models": ["nano-banana-pro"],
+      "prompt": "Transform the reference person into a hand-crocheted yarn plush toy held in cupped hands. Q-version chibi proportions, vibrant yarn texture with visible stitches, button eyes, embroidered smile. Cozy home environment background, warm window light, slight depth of field. Preserve the recognizable hairstyle and outfit colors from the reference."
+    },
+    {
+      "id": 15,
+      "title": "Bronze Trophy Statue",
+      "category": "3d_figure",
+      "tags": ["bronze", "statue", "museum"],
+      "models": ["nano-banana-2"],
+      "prompt": "Transform the reference subject into a polished bronze trophy statue on a marble base. Single-arm victory pose, metallic patina, mirror-bright highlights and deep shadows. Museum gallery lighting, dark velvet background, classical sculpture aesthetic. Engraved name plate on the base reading 'CHAMPION'. Keep the face features clearly recognizable as the reference."
+    },
+    {
+      "id": 16,
+      "title": "Marble Renaissance Sculpture",
+      "category": "3d_figure",
+      "tags": ["marble", "renaissance", "classical"],
+      "models": ["nano-banana-pro", "seedream-4"],
+      "prompt": "Convert the reference into a classical Carrara marble sculpture on a white marble pedestal. Polished surfaces with mirror highlights, fine veining detail, Renaissance contrapposto pose, drapery folds, cracked patina at the base. Dark gallery background, single warm spotlight from above-left. Preserve the original facial features carved into the marble."
+    },
+    {
+      "id": 17,
+      "title": "3D Q-Version App Icon",
+      "category": "3d_figure",
+      "tags": ["chibi", "app-icon", "3d"],
+      "models": ["nano-banana-2"],
+      "prompt": "Transform the reference person into a 3D chibi Q-version app icon, similar to a mini clay figurine. Adorable proportions with oversized head, tiny body, large sparkling eyes. Soft vivid lighting, the character slightly breaks out of the rounded square icon frame to enhance the 3D pop-out feeling. Pastel gradient background. Keep recognizable facial features and clothing colors from the reference."
+    },
+    {
+      "id": 18,
+      "title": "Studio Ghibli Anime Style",
+      "category": "style_transfer",
+      "tags": ["ghibli", "anime", "watercolor"],
+      "models": ["nano-banana-pro", "seedream-4"],
+      "prompt": "Convert the reference photo to hand-drawn Studio Ghibli style anime art. Large expressive eyes, flowing hair with light streaks, soft watercolor palette, simple gradients, cherry blossom petals floating, distant rolling green hills, fluffy cumulus clouds. Soft outline, warm afternoon light. Keep the original hair color and outfit colors recognizable."
+    },
+    {
+      "id": 19,
+      "title": "Origami Paper Sculpture",
+      "category": "style_transfer",
+      "tags": ["origami", "paper", "minimal"],
+      "models": ["nano-banana-2"],
+      "prompt": "Transform the reference subject into an intricate white paper origami sculpture. Visible creases, layered geometric folds, fine paper texture, 45-degree studio lighting casting dramatic fold shadows. Plain dark gradient backdrop. Maintain the silhouette and pose of the original photo."
+    },
+    {
+      "id": 20,
+      "title": "Street Graffiti Mural",
+      "category": "style_transfer",
+      "tags": ["graffiti", "street-art", "urban"],
+      "models": ["nano-banana-pro"],
+      "prompt": "Transform the reference into a vibrant street graffiti mural on a worn brick wall. Bold black outlines, neon spray colors (electric blue, hot pink, lime green), paint drips and over-spray texture. Recognizable face features stylized with graphic flat shading. Urban alley background with graffiti tags around. Slight wide-angle perspective."
+    },
+    {
+      "id": 21,
+      "title": "Holographic Y2K Effect",
+      "category": "style_transfer",
+      "tags": ["holographic", "y2k", "iridescent"],
+      "models": ["nano-banana-2"],
+      "prompt": "Apply a rainbow holographic shimmer across the entire reference image. Iridescent skin, hair and clothing with chromatic aberration, prism lens flares, Y2K holographic atmosphere, high saturation. Pearlescent silver background with subtle gradient. Keep the subject's identity and pose intact."
+    },
+    {
+      "id": 22,
+      "title": "Architecture Cardboard Model",
+      "category": "creative",
+      "tags": ["model", "architecture", "miniature"],
+      "models": ["nano-banana-pro"],
+      "prompt": "Convert this photo into an architecture model on a desk. Behind the model, place a cardboard box with a printed image of the architecture from the photo on it. Add a computer to the side, with the screen showing the original photograph. Warm desk lamp lighting, blueprints and sketch tools scattered nearby. Realistic miniature scale and shadows."
+    },
+    {
+      "id": 23,
+      "title": "Phone Screen 3D Illusion",
+      "category": "creative",
+      "tags": ["forced-perspective", "phone", "surreal"],
+      "models": ["nano-banana-2"],
+      "prompt": "Create a forced-perspective image where a tiny version of the reference person appears to stand on top of a smartphone screen held in a giant hand. Dramatic size contrast, accurate cast shadow on the phone glass, screen UI faintly visible, surreal photography effect. Soft window light, neutral cafe background. Maintain the original facial identity at miniature scale."
+    },
+    {
+      "id": 24,
+      "title": "Worm's-Eye Group Selfie",
+      "category": "viral",
+      "tags": ["fisheye", "group", "gen-z"],
+      "models": ["nano-banana-pro"],
+      "prompt": "A dramatic ultra-wide, low-angle group shot taken from ground level looking straight up (worm's-eye view). 6-8 people including the reference subject form a loose circle around the camera, leaning in and looking down into the lens. Faces and hands are close, slightly stretched fisheye effect. Some reach toward the camera with playful hand signs, others laugh. Energetic carefree Gen-Z street-style mood. 10-14mm wide-angle lens distortion, bright saturated colors, high contrast, punchy sunlight, slight overexposure on skin highlights. Keep the reference person's face identical."
+    },
+    {
+      "id": 25,
+      "title": "Music Player UI Overlay",
+      "category": "viral",
+      "tags": ["ui", "vertical", "neon"],
+      "models": ["nano-banana-2"],
+      "prompt": "Place the reference subject on a moody neon-lit street at night. Overlay a glass-morphism music player UI in the lower third with frosted blur, rounded corners, song title 'Midnight Drive', artist name, progress bar, play button. Purple and pink neon reflections on wet pavement. 9:16 vertical format, cinematic teal-and-magenta grade."
+    },
+    {
+      "id": 26,
+      "title": "Cartoon Sticker Self",
+      "category": "viral",
+      "tags": ["sticker", "cartoon", "die-cut"],
+      "models": ["nano-banana-pro"],
+      "prompt": "Transform the reference person into a cute Q-version cartoon sticker. Exaggerated expression, thick black outline, solid flat colors, glossy die-cut sticker edge with white border, small drop shadow. Speech bubble that says 'VIBE CHECK!'. Place on a transparent or pastel background. Recognizable hairstyle and outfit colors."
+    },
+    {
+      "id": 27,
+      "title": "Shop Window Cartoon Reflection",
+      "category": "viral",
+      "tags": ["reflection", "shop-window", "cartoon"],
+      "models": ["nano-banana-2"],
+      "prompt": "{\"edit_type\":\"shop_window_cartoon_reflection\",\"camera\":\"phone_extreme_wide_angle\",\"scene\":\"city_street_storefront\",\"reflection_style\":\"flat_2d_cartoon_version_of_subject\",\"preserve\":[\"subject_face\",\"clothing\",\"pose\"],\"swap\":[\"reflection_only\"],\"lighting\":\"daylight_neutral\",\"mood\":\"playful\"}"
+    },
+    {
+      "id": 28,
+      "title": "Outfit Swap from Reference Photo 2",
+      "category": "fashion",
+      "tags": ["ootd", "outfit-swap", "multi-image"],
+      "models": ["nano-banana-pro", "flux-kontext"],
+      "prompt": "Take the person from image 1 and dress them in all the clothing and accessories from image 2. Outdoor natural daylight, fashion street style, full-body shot, clear focus. Maintain the person's identity and pose continuity from image 1. Adjust fabric folds and shadows realistically to fit the new body."
+    },
+    {
+      "id": 29,
+      "title": "Vogue Editorial Fashion",
+      "category": "fashion",
+      "tags": ["editorial", "vogue", "high-fashion"],
+      "models": ["nano-banana-2"],
+      "prompt": "Position the reference subject as a high-end fashion editorial. Sleek black turtleneck, oversized beige blazer, gold layered jewelry, slicked-back ponytail, dramatic contoured makeup with bold red lips. Vogue-style cover composition with copy space at the top. Studio lighting with hard shadow on a beige paper backdrop. Keep facial structure identical."
+    },
+    {
+      "id": 30,
+      "title": "Tailored Business Suit Swap",
+      "category": "fashion",
+      "tags": ["suit", "wardrobe-swap", "men"],
+      "models": ["nano-banana-pro"],
+      "prompt": "Replace the reference subject's clothing with a perfectly tailored charcoal suit, crisp white dress shirt, navy striped tie, silver watch, black leather oxford shoes, 1/4 inch shirt cuff showing. Maintain the original pose, body proportions, and facial features. Realistic fabric texture, natural shadow folds at the elbows and knees."
+    },
+    {
+      "id": 31,
+      "title": "Beach Wave Hair Transformation",
+      "category": "fashion",
+      "tags": ["hair", "beach-wave", "highlights"],
+      "models": ["nano-banana-2"],
+      "prompt": "Change the reference subject's hairstyle to long beachy waves with caramel and honey highlights blended into a darker base, sun-kissed effect, tousled sea-wind texture, healthy gloss, face-framing layers, natural appearance. Keep face, makeup, eyes, and outfit unchanged."
+    },
+    {
+      "id": 32,
+      "title": "Streetwear Style Conversion",
+      "category": "fashion",
+      "tags": ["streetwear", "urban", "casual"],
+      "models": ["nano-banana-pro"],
+      "prompt": "Restyle the reference subject in oversized black hoodie, layered white tee, black cargo pants with multiple pockets, white chunky sneakers, backwards baseball cap, silver chain, crossbody bag. Urban concrete background with graffiti, slight wide-angle. Preserve the face exactly, adjust pose to a relaxed slouched stance."
+    },
+    {
+      "id": 33,
+      "title": "Beach Jewelry Display",
+      "category": "product",
+      "tags": ["jewelry", "beach", "lifestyle"],
+      "models": ["nano-banana-2", "seedream-4"],
+      "prompt": "Show this gold necklace on a sandy beach with gentle morning light and soft shadows, scattered seashells, wet sand reflections, slight defocus on the horizon. Macro detail on the engraving, golden hour warmth. Keep the product's exact shape, engraving, and color from the reference image."
+    },
+    {
+      "id": 34,
+      "title": "Boho Tote Bag Lifestyle",
+      "category": "product",
+      "tags": ["bag", "boho", "lifestyle"],
+      "models": ["nano-banana-pro"],
+      "prompt": "Add a soft boho-style living-room background behind this linen tote bag, with warm sunlight streaming through sheer curtains, rattan textures, neutral beige tones, dried pampas grass in a vase. Slight depth of field, casual editorial composition. Preserve the bag's exact texture, color and logo."
+    },
+    {
+      "id": 35,
+      "title": "Premium 3D Podium Product Shot",
+      "category": "product",
+      "tags": ["podium", "studio", "ad"],
+      "models": ["nano-banana-2"],
+      "prompt": "Place this product on a premium 3D podium with soft studio lighting, subtle gradient background (light gray to white), and a clean shadow beneath it. Add abstract floating geometric shapes in pastel tones around the podium. Hero advertising composition, centered. Keep the product completely unchanged."
+    },
+    {
+      "id": 36,
+      "title": "Underwater Bottle Shot",
+      "category": "product",
+      "tags": ["underwater", "caustics", "splash"],
+      "models": ["nano-banana-pro"],
+      "prompt": "Show this bottle submerged in clear turquoise ocean water, with caustic light reflections shimmering on the surface, tiny air bubbles rising, soft sandy seafloor far below, sunbeams cutting through the water column. Glossy water droplets on the label. Keep the product label readable and unchanged."
+    },
+    {
+      "id": 37,
+      "title": "Marble Countertop Skincare",
+      "category": "product",
+      "tags": ["skincare", "marble", "natural-light"],
+      "models": ["nano-banana-2"],
+      "prompt": "Place this skincare jar on a white marble countertop with natural window light from the left and soft depth of field. Add a single eucalyptus sprig and a folded linen cloth. Subtle reflection of the jar on the polished marble. Clean, premium skincare ad aesthetic. Preserve the product exactly."
+    },
+    {
+      "id": 38,
+      "title": "Ecommerce White Background",
+      "category": "product",
+      "tags": ["ecommerce", "white-bg", "amazon"],
+      "models": ["nano-banana-pro", "seedream-4"],
+      "prompt": "Create a clean ecommerce-ready pure white seamless background for this product. Crisp natural shadow under the product, sharp edges including hair and fine details, edge rim lighting for separation, professional Amazon/Shopify product standard. Keep the product's exact shape, color, label and proportions."
+    },
+    {
+      "id": 39,
+      "title": "Floating Hero Lipstick Shot",
+      "category": "product",
+      "tags": ["floating", "cosmetics", "hero-shot"],
+      "models": ["nano-banana-2"],
+      "prompt": "Turn this lipstick into a floating hero shot with suspended particles (powder, petals, glitter dust) orbiting around it, minimal monochrome backdrop in deep red. Sharp focus on the lipstick, motion blur on the orbiting particles, dramatic side light. Keep the lipstick design and color identical."
+    },
+    {
+      "id": 40,
+      "title": "Flatlay Kitchen Knife",
+      "category": "product",
+      "tags": ["flatlay", "kitchen", "top-down"],
+      "models": ["nano-banana-pro"],
+      "prompt": "Place this chef's knife in a top-down flatlay with matching kitchen props: cutting board, scattered herbs, garlic cloves, sea salt, linen napkin, copper pot in the corner. Wooden table textures, balanced color harmony with warm and earthy tones, soft natural light from above-left. Preserve the knife exactly."
+    },
+    {
+      "id": 41,
+      "title": "Background Replacement Sunset City",
+      "category": "background_replace",
+      "tags": ["background", "sunset", "city"],
+      "models": ["nano-banana-2", "flux-kontext"],
+      "prompt": "Replace the background of this subject with a realistic urban sunset skyline showing skyscraper silhouettes, warm orange and magenta sky, distant haze, scattered clouds. Maintain proper rim light on the subject matching the sunset direction, ambient sky color reflected on the skin, accurate shadows on the ground. Keep the subject 100% identical."
+    },
+    {
+      "id": 42,
+      "title": "Pure White Studio Replace",
+      "category": "background_replace",
+      "tags": ["studio", "white", "cutout"],
+      "models": ["nano-banana-pro"],
+      "prompt": "Replace the background with a pure white seamless studio backdrop. Preserve all subject detail including individual strands of hair, fabric edges and accessories. Add a soft natural contact shadow at the feet, subtle edge rim lighting. Professional ecommerce / catalog standard. Do not alter the subject."
+    },
+    {
+      "id": 43,
+      "title": "Object Removal & Cleanup",
+      "category": "photo_enhance",
+      "tags": ["cleanup", "remove-objects"],
+      "models": ["nano-banana-2", "flux-kontext"],
+      "prompt": "Remove all background distractions from this photo, including wires, litter, signs, parked cars and pedestrians, while seamlessly blending the surrounding environment. Preserve the original lighting, perspective and color balance. Do not alter the main subject in any way."
+    },
+    {
+      "id": 44,
+      "title": "Cinematic Teal-Orange Grade",
+      "category": "photo_enhance",
+      "tags": ["color-grade", "cinematic", "teal-orange"],
+      "models": ["nano-banana-pro"],
+      "prompt": "Apply a moody cinematic teal-and-orange color grade to this outdoor scene. Increase contrast, enhance sunlight highlights toward warm orange, deepen shadows toward teal, slight S-curve, lifted blacks for film feel. Add fine 35mm film grain. Keep composition, subject and details exactly the same."
+    },
+    {
+      "id": 45,
+      "title": "Portrait Skin & Eye Enhance",
+      "category": "photo_enhance",
+      "tags": ["retouch", "portrait", "natural"],
+      "models": ["nano-banana-2"],
+      "prompt": "Enhance this portrait by smoothing skin while keeping pores and natural texture, brightening eyes and adding subtle catchlights, whitening teeth slightly, evening out skin tone, adding soft cinematic lighting. Avoid plastic or doll-like effects. Do not change the face shape or identity."
+    },
+    {
+      "id": 46,
+      "title": "Movie Poster Treatment",
+      "category": "photo_enhance",
+      "tags": ["poster", "letterbox", "cinematic"],
+      "models": ["nano-banana-pro"],
+      "prompt": "Apply a movie poster treatment to this image: letterbox 2.39:1, cyan-orange color grading, volumetric light beams cutting through the air, high contrast, fine film grain, lens flare top-right, heroic centered composition. Add subtle dust particles in the light. Preserve subject identity."
+    },
+    {
+      "id": 47,
+      "title": "High-Contrast B&W Portrait",
+      "category": "photo_enhance",
+      "tags": ["bw", "monochrome", "portrait"],
+      "models": ["nano-banana-2"],
+      "prompt": "Convert this portrait to a high-contrast black-and-white photograph. Enhanced detail and texture in skin and fabric, dodge-and-burn dimensional lighting on the face, grainy film aesthetic, sharp eyes with strong catchlights. Deep blacks and clean highlights. Keep facial features and pose identical."
+    },
+    {
+      "id": 48,
+      "title": "Before / After Split Compare",
+      "category": "photo_enhance",
+      "tags": ["before-after", "split", "compare"],
+      "models": ["nano-banana-pro"],
+      "prompt": "Create a vertical split-screen comparison of this image. Left half labeled 'BEFORE' in muted desaturated tone with the original input. Right half labeled 'AFTER' with enhanced color, contrast and clarity. Clean dividing line, aligned features across both halves, modern sans-serif labels, subtle drop shadow on the divider."
+    },
+    {
+      "id": 49,
+      "title": "Line Drawing Sketch on Notebook",
+      "category": "creative",
+      "tags": ["sketch", "line-drawing", "notebook"],
+      "models": ["nano-banana-2"],
+      "prompt": "Create a photo-style line drawing / ink sketch of the face from the reference image, keeping every facial feature, proportion, and expression exactly the same. Use blue and white ink tones with intricate fine line detailing on a notebook-page background with faint ruled lines. Show a right hand holding a pen and an eraser near the sketch as if the artist is still working."
+    },
+    {
+      "id": 50,
+      "title": "Fantasy Magic Effect Aura",
+      "category": "creative",
+      "tags": ["fantasy", "magic", "particles"],
+      "models": ["nano-banana-pro", "seedream-4"],
+      "prompt": "Add glowing magical particles orbiting the reference subject, mystical aura emanating from the hands and eyes, swirling energy ribbons, mysterious dark forest background with bokeh light spheres, theatrical dramatic side lighting, fantasy art aesthetic. Slight wind blowing the hair and clothing. Keep the subject's facial identity unchanged."
+    }
+  ]
+}
