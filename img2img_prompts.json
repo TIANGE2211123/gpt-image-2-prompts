@@ -1,432 +1,447 @@
 {
   "meta": {
-    "title": "Curated Img2Img Prompts (Nano Banana / Seedream / Flux era)",
-    "version": "1.0.0",
+    "title": "Curated GPT Image 2 (image2 / gpt-image-2) Prompts",
+    "version": "2.0.0",
+    "model": "gpt-image-2",
+    "model_aliases": ["GPT Image 2", "ChatGPT Images 2.0", "image2"],
+    "released": "2026-04-21",
     "updated": "2026-05-15",
     "count": 50,
-    "description": "50 ready-to-use image-to-image (img2img) prompts curated from popular prompt-sharing sites in 2025-2026. Each prompt is designed to be pasted directly into Nano Banana 2 / Nano Banana Pro / Gemini 2.5 Flash Image / Seedream 4 / Flux Kontext / GPT Image 2 with a reference image attached.",
+    "description": "50 ready-to-use prompts for OpenAI gpt-image-2 (released 2026-04-21). Curated from the most viral and practical examples on X, GitHub awesome lists and major prompt-sharing sites. Optimized for image2's strengths: native 2K/4K, pixel-perfect multi-script text rendering (Chinese / Japanese / English), accurate UI mockups, complex multi-element composition, character consistency.",
     "sources": [
-      "https://aiagentskit.com/blog/best-nano-banana-image-generation-prompts/",
-      "https://www.imagine.art/blogs/nano-banana-pro-prompt-guide",
-      "https://github.com/ZeroLu/awesome-nanobanana-pro",
-      "https://pxz.ai/zh/blog/40-best-nano-banana-prompts-2025-copy-and-paste-for-instant-results",
-      "https://www.img-2-img.com/prompts",
-      "https://www.promptlibrary.space",
-      "https://nanoprompts.org/"
+      "https://github.com/Anil-matcha/Awesome-GPT-Image-2-API-Prompts",
+      "https://github.com/ZeroLu/awesome-gpt-image",
+      "https://github.com/YouMind-OpenLab/awesome-gpt-image-2",
+      "https://github.com/EvoLinkAI/awesome-gpt-image-2-prompts",
+      "https://github.com/freestylefly/awesome-gpt-image-2",
+      "https://www.imagine.art/blogs/gpt-image-2-prompt-guide",
+      "https://deepdreamgenerator.com/blog/gpt-image-2-best-prompts",
+      "https://evolink.ai/gpt-image-2-prompts",
+      "https://pixverse.ai/en/blog/gpt-image-2-review-and-prompt-guide"
     ],
     "categories": [
-      "portrait",
-      "product",
-      "style_transfer",
-      "vintage",
-      "fashion",
-      "3d_figure",
-      "background_replace",
-      "photo_enhance",
-      "creative",
-      "viral"
+      "photorealistic_portrait",
+      "amateur_realistic",
+      "poster_typography",
+      "ui_mockup",
+      "product_photography",
+      "infographic_diagram",
+      "logo_branding",
+      "ad_creative",
+      "comic_manga",
+      "game_screenshot",
+      "merch_collectible",
+      "chinese_commercial",
+      "illustration_style"
+    ],
+    "core_tips": [
+      "Front-load the subject in the first 30% of the prompt for highest weight.",
+      "Wrap any in-image text in straight double quotes for >95% rendering accuracy.",
+      "Specify lens (e.g. 35mm, 85mm), lighting (e.g. backlit, 3200K) and aspect ratio.",
+      "Avoid filler adjectives (8K, masterpiece) — use factual visual descriptions.",
+      "When editing an existing image, restate invariants ('same character, same outfit') to prevent drift."
     ]
   },
   "prompts": [
     {
       "id": 1,
-      "title": "LinkedIn Executive Headshot",
-      "category": "portrait",
-      "tags": ["headshot", "professional", "studio"],
-      "models": ["nano-banana-2", "seedream-4", "flux-kontext"],
-      "prompt": "LinkedIn-style executive headshot, half body (chest up), face directly to camera with body slightly turned. Calm confident smile, wavy hair, sleeveless black dress, minimal professional aesthetic. Soft directional key light from 45 degrees, light gray smooth gradient background, clean separation. 50mm lens simulation, shallow depth of field. Keep facial features 100% identical to the reference image."
+      "title": "Multilingual Vintage Travel Poster — Kyoto",
+      "category": "poster_typography",
+      "tags": ["poster", "vintage", "japanese", "multilingual"],
+      "aspect_ratio": "2:3",
+      "prompt": "A vintage travel poster for Kyoto in spring, advertising \"BLOSSOM // KYOTO 2026\". Top half: a stylized art-deco illustration of Mount Fuji silhouetted behind cascading cherry blossoms in pink, peach and cream tones. Bottom half: clean off-white panel with the headline \"BLOSSOM\" in tall serif uppercase, set kerned wide. Below it, a smaller line in elegant Japanese kanji reading \"京都の春\" (Kyoto no Haru — Kyoto Spring), perfectly legible. Tiny tagline beneath in lowercase: \"april — may // shinkansen lines now open\". Slight halftone print texture, faded edges, like a 1960s JNR rail poster."
     },
     {
       "id": 2,
-      "title": "Silicon Valley Founder Portrait",
-      "category": "portrait",
-      "tags": ["business", "tech", "studio"],
-      "models": ["nano-banana-pro", "seedream-4"],
-      "prompt": "Convert this casual photo into a studio business headshot in Silicon Valley founder style. 85mm f/1.8 lens, three-point lighting setup with soft key light, fill light, and rim light. Charcoal slim-fit blazer over white tee, neutral seamless backdrop. Subtle confident expression. Preserve the exact face, hairstyle and skin texture from the reference. Sharp eye catchlights, natural skin pores, no plastic smoothing."
+      "title": "Boston Spring 2026 City Poster",
+      "category": "poster_typography",
+      "tags": ["city-poster", "editorial", "9:16"],
+      "aspect_ratio": "9:16",
+      "prompt": "Striking Spring 2026 city poster for Boston with elegant celebratory mood and bold contemporary design. On clean off-white textured background with generous negative space, place a miniature single sculler in the lower-right corner rowing across a narrow ribbon of reflective water. Let the wake curve upward and gradually transform into the Charles River, then into a dreamlike hand-painted panorama of Boston featuring the Back Bay skyline, Beacon Hill brownstones, Acorn Street, Boston Public Garden, Swan Boats, the Zakim Bridge, harbor ferries, and historic brick architecture. Add soft morning fog, golden spring light, subtle crimson and gold festive accents, layered depth, and premium editorial typography reading \"SPRING 2026\" with a vertical slogan \"BOSTON, A CITY OF RIVER, MEMORY, AND INVENTION\". Vertical poster ratio, polished graphic-design finish."
     },
     {
       "id": 3,
-      "title": "Korean Haima Studio Portrait",
-      "category": "portrait",
-      "tags": ["korean", "studio", "fresh"],
-      "models": ["nano-banana-2", "seedream-4"],
-      "prompt": "Young East Asian woman, long black hair, off-shoulder cream top, holding a strawberry and a grapefruit slice as props. Soft natural light, clean white seamless background, shallow depth of field. 8K hyperrealistic, delicate makeup with pink blush and glossy lips, cinematic color grade, minimalist composition. Keep the subject's identity and facial features identical to the reference image."
+      "title": "BUILD 2026 Tech Conference Banner",
+      "category": "poster_typography",
+      "tags": ["banner", "tech", "conference"],
+      "aspect_ratio": "16:9",
+      "prompt": "A digital event banner for a tech conference called \"BUILD 2026\". Dark grey background with a subtle geometric grid pattern, faint scan lines and a soft cyan glow in the top-right. Title \"BUILD 2026\" in oversized white bold sans-serif, left-aligned, 60% of the banner width. Subtitle \"THE FUTURE OF AGENTIC SOFTWARE\" in thin uppercase, kerned wide, in cyan. Lower-right: dates \"OCT 14 – 16 · SAN FRANCISCO\" and a small registration QR code. 16:9 aspect ratio. Crisp text, no logo drift."
     },
     {
       "id": 4,
-      "title": "Sporty Girlfriend Photoshoot",
-      "category": "portrait",
-      "tags": ["fitness", "natural-light", "lifestyle"],
-      "models": ["nano-banana-pro"],
-      "prompt": "Young woman with high ponytail, white tight sports tank, gray yoga pants, white dad sneakers. Sitting on the edge of a white table, body twisted slightly, holding a glass cup, soft confident gaze. Pure white photography studio, high-key bright natural light, diffused window light from the left, reflector fill from the right, window-grid shadow adds depth. 85mm prime lens, slightly lifted contrast, preserving pores and fine hair. Light film grain. 3:4 aspect ratio. Keep the same person as in the reference."
+      "title": "Coffee Shop A2 QR Poster",
+      "category": "poster_typography",
+      "tags": ["poster", "minimal", "qr"],
+      "aspect_ratio": "2:3",
+      "prompt": "A modern minimalist coffee shop poster, A2 portrait. Cream background, single hand-drawn line illustration of a pour-over kettle and dripper centered upper third. Headline \"SLOW POUR / SLOW MORNING\" in mixed serif and italic, two lines. Mid-poster body text in small sans: \"Single origin Ethiopia Yirgacheffe — bright, floral, citrus. Brewed every morning from 7:30.\" Bottom-right corner: a real scannable QR code labeled \"MENU\". Subtle paper grain. No watermark."
     },
     {
       "id": 5,
-      "title": "Times Square Night Portrait",
-      "category": "portrait",
-      "tags": ["cinematic", "night", "city"],
-      "models": ["nano-banana-2", "flux-kontext"],
-      "prompt": "Photorealistic portrait of the reference person standing in the heart of Times Square at night in New York City. Wears a black turtleneck, gray wool coat, and white sneakers. Massive billboards, neon signs, yellow taxi cabs, light bokeh and faint motion blur from passing traffic. Cinematic composition, low ISO clean shadows, 35mm lens. Keep the facial identity unchanged."
+      "title": "Detective Investigation Board",
+      "category": "poster_typography",
+      "tags": ["cinematic", "noir", "props"],
+      "aspect_ratio": "3:2",
+      "prompt": "A cinematic photograph of a 1970s detective's investigation board pinned to a dim office wall. Cork board, red and black yarn connecting Polaroid photos of suspects, handwritten index cards reading \"MOTIVE?\", \"ALIBI 22:14\", \"GREEN SEDAN\", a folded newspaper headline \"TOWN SHAKEN BY MURDER\", a coffee-stained map of the city with a circled location, a desk lamp casting harsh side light, smoke drifting from an ashtray, shallow depth of field. Slight film grain, warm tungsten color cast. All handwritten text legible."
     },
     {
       "id": 6,
-      "title": "Rainy City Noir",
-      "category": "portrait",
-      "tags": ["noir", "moody", "rain"],
-      "models": ["nano-banana-pro", "seedream-4"],
-      "prompt": "Ultra-realistic cinematic photograph of the subject in a rainy city at night, noir aesthetic, moody urban streets with glowing streetlights and neon bokeh, wet asphalt reflections, heavy rain falling, intense expression, wet hair, water droplets on jacket. Anamorphic lens flare, teal-and-orange grade, 2.39:1 letterbox. Maintain the same person as in the reference image."
+      "title": "Crypto Trading Dashboard Mockup",
+      "category": "ui_mockup",
+      "tags": ["dashboard", "dark-mode", "fintech"],
+      "aspect_ratio": "16:10",
+      "prompt": "A photorealistic screenshot mockup of a dark-mode crypto trading dashboard at 1440p. Left sidebar with 8 navigation items (\"Dashboard\", \"Markets\", \"Portfolio\", \"Orders\", \"Funding\", \"Pro\", \"News\", \"Settings\"), each with a small monochrome icon. Top header: search bar, BTC ticker showing \"$74,218.40 +2.13%\", account avatar. Main panel: candlestick chart \"BTC / USDT — 1h\" with green/red wicks, volume bars below, technical overlays (EMA 50, EMA 200), order book on the right with bids in green and asks in red, recent trades feed at the bottom. All numbers consistent. Crisp UI typography, real shadows, no logo drift."
     },
     {
       "id": 7,
-      "title": "Paris Fashion Week Runway",
-      "category": "fashion",
-      "tags": ["runway", "high-fashion", "editorial"],
-      "models": ["nano-banana-2"],
-      "prompt": "Cinematic high-fashion runway photograph of the reference subject walking at Paris Fashion Week. Captured mid-stride with confident walk, intense forward gaze, strong posture, commanding presence. Designer black tailored suit, glossy leather boots, dramatic side lighting, audience seated in shadow on both sides, slight motion blur on the legs. Vogue editorial aesthetic. Keep the face and hairstyle identical to the reference."
+      "title": "Personal Finance App — Luma",
+      "category": "ui_mockup",
+      "tags": ["mobile-ui", "ios", "finance"],
+      "aspect_ratio": "9:19.5",
+      "prompt": "A mobile UI mockup of a personal finance iOS app called \"Luma\", shown inside an iPhone 15 device frame. Status bar 9:41, full battery, 5G. Top: greeting \"Good morning, Maya\" with a small profile pill. Hero card with rounded corners showing \"Total Balance · $12,840.27\" and a subtle gradient. Below: a 7-day spending sparkline. Three quick-action chips: \"Transfer\", \"Pay\", \"Invest\". Section \"Recent activity\" listing 4 realistic transactions (e.g. \"Whole Foods · -$48.12\", \"Spotify · -$10.99\", \"Stripe Payout · +$1,200.00\"). Bottom tab bar: Home / Transactions / Cards / Goals / Profile. Soft drop shadows, system font, generous whitespace."
     },
     {
       "id": 8,
-      "title": "70s Polaroid Family Photo",
-      "category": "vintage",
-      "tags": ["polaroid", "70s", "nostalgia"],
-      "models": ["nano-banana-2"],
-      "prompt": "1970s vintage family photo style transformation. Polaroid SX-70 frame with characteristic white edges, slight yellowing, minor creases. Place the reference subject in a 70s living room with wood-paneled walls, brown corduroy sofa, mustard curtains, vinyl records on a shelf. Warm amber tungsten lighting, soft focus, heavy film grain, faded color cast. Keep the subject's face identity unchanged."
+      "title": "E-commerce Analytics Dashboard",
+      "category": "ui_mockup",
+      "tags": ["saas", "dashboard", "light-mode"],
+      "aspect_ratio": "16:10",
+      "prompt": "A photorealistic screenshot of a SaaS e-commerce analytics dashboard in light mode at 1440p. Top KPI row of four cards: \"Revenue · $84,210 · +12.4%\", \"Orders · 1,238 · +8.1%\", \"Avg Order · $68.02\", \"Conversion · 3.42%\". Center: a smooth multi-line area chart titled \"Revenue, last 30 days\" with two series (this period, previous period) and a tooltip pinned on a peak. Right column: \"Top products\" table with thumbnails, names, units sold and revenue. Bottom: traffic source donut chart with legend (Direct, Organic, Paid, Email, Social). Inter typeface, subtle shadows, 8px grid alignment."
     },
     {
       "id": 9,
-      "title": "1990s Magazine Cover Look",
-      "category": "vintage",
-      "tags": ["90s", "magazine", "flash"],
-      "models": ["nano-banana-pro"],
-      "prompt": "Convert the reference into a 1990s magazine cover portrait. Direct on-camera flash with hard shadows, slightly oversaturated colors, magazine poster background with bold typography blurred behind, denim jacket and choker. Heavy 35mm film grain, slightly washed-out blacks, cyan tint in shadows. Keep the original face, eyes and lips identical to the reference."
+      "title": "Hi-Fi Chinese E-commerce App Home",
+      "category": "chinese_commercial",
+      "tags": ["mobile-ui", "chinese", "ecommerce"],
+      "aspect_ratio": "9:19.5",
+      "prompt": "Generate a high-fidelity mobile e-commerce app homepage screenshot inspired by mainstream Chinese e-commerce apps in 2026. Status bar with 9:41, 5G, full battery. Top bar: city selector \"杭州\" on the left, rounded search box centered with placeholder \"搜索耳机、咖啡机、运动鞋\", message and scan icons on the right. Horizontal category tabs: \"推荐 数码 家电 服饰 美妆 食品 运动 家居\". Top promo carousel with the banner \"618 预售开启\" and a tag \"每满300减50\". 10-icon function grid with labels \"超市 百亿补贴 秒杀 直播 充值中心 到家 领券 品牌馆 全球购 排行榜\". Flash-sale module \"限时秒杀\" with a countdown 02:14:36 and three product cards. \"猜你喜欢\" two-column waterfall with 6 product cards (image, title, price, sales tag). Bottom tab bar: \"首页 分类 购物车 消息 我的\". All Chinese text crisp and readable, realistic spacing, shadows and dividers."
     },
     {
       "id": 10,
-      "title": "Y2K Bedroom Mirror Selfie",
-      "category": "vintage",
-      "tags": ["y2k", "selfie", "bedroom"],
-      "models": ["nano-banana-2"],
-      "prompt": "{\"edit_type\":\"casual_mirror_selfie\",\"era\":\"early_2000s\",\"camera\":\"compact_digital_with_flash\",\"setting\":\"teenager_bedroom\",\"props\":[\"lava_lamp\",\"translucent_flip_phone\",\"butterfly_clips\",\"posters\"],\"outfit\":\"low_rise_jeans_cropped_tank\",\"lighting\":\"harsh_direct_flash\",\"film_look\":\"heavy_grain_blue_shadows\",\"preserve\":[\"face\",\"hair\",\"body_proportions\"]}"
+      "title": "Museum-Style Hanfu Infographic",
+      "category": "chinese_commercial",
+      "tags": ["chinese", "infographic", "museum"],
+      "aspect_ratio": "2:3",
+      "prompt": "请根据「汉服」生成一张博物馆图鉴式中文拆解信息图。整张图要兼具真实写实主视觉、结构拆解、中文标注、材质说明、纹样寓意、色彩含义和核心特征总结。整体风格为国家博物馆展板、历史服饰图鉴、文博专题信息图。背景采用米白与绢纸白质感。版式固定为：顶部中文主标题「汉服」加副标题「中华传统服饰图鉴」；左侧结构拆解区，中文引线标注关键部件（交领、广袖、襦、裙、腰带、蔽膝）；右上材质与工艺区（蚕丝、织锦、刺绣）；右中纹样、色彩与寓意区；底部穿着顺序流程图。所有文字必须为简体中文，清晰、规整、可读，不要乱码、错字。"
     },
     {
       "id": 11,
-      "title": "Victorian Daguerreotype Ghost",
-      "category": "vintage",
-      "tags": ["victorian", "ghost", "bw"],
-      "models": ["nano-banana-pro"],
-      "prompt": "Convert the reference subject to a black-and-white daguerreotype ghost. Semi-transparent Victorian mourning clothes, lace veil, faded edges. Wet plate photography effect, silver tarnish, slight blur, scratches and dust on the plate. Period-accurate 1870s parlor with heavy curtains and oil lamps. Solemn expression, long exposure motion blur. Keep the original facial structure recognizable."
+      "title": "WeChat Public Account Cover",
+      "category": "chinese_commercial",
+      "tags": ["wechat", "cover", "chinese-text"],
+      "aspect_ratio": "2.35:1",
+      "prompt": "生成一张微信公众号封面图，主题是「AI Agent 实战指南」。画面为现代科技风格，背景有 AI 芯片轮廓、聊天气泡、代码片段，蓝紫色渐变光效。图片中必须清晰出现中文主标题：「AI Agent 实战指南」字号最大、居中偏左；副标题：「从零到上线，30 天让 LLM 真正干活」位于主标题下方；右下角小字「公众号 · 智能体周刊」。字体干净、清晰、无错别字、无乱码，适合公众号封面，留白合理，高级感强。"
     },
     {
       "id": 12,
-      "title": "1980s Arcade Hall Scene",
-      "category": "vintage",
-      "tags": ["80s", "arcade", "neon"],
-      "models": ["nano-banana-2"],
-      "prompt": "Place the reference subject in a vibrant 1980s arcade scene. Standing before glowing arcade cabinets, neon pink and cyan light wash, oversized windbreaker with bold geometric pattern, mullet hair, white sneakers. Pac-Man and Galaga screens visible, faint smoke in the air, VHS aesthetic, strong on-camera flash with hard shadows. Slight chromatic aberration. Keep the face exactly as in the reference."
+      "title": "618 E-commerce White Background Hero",
+      "category": "chinese_commercial",
+      "tags": ["ecommerce", "white-bg", "hero"],
+      "aspect_ratio": "1:1",
+      "prompt": "随手拍一个无线降噪耳机充电盒，帮我做成白底电商主图，重新打光，产品更精致。背景纯白，柔光，阴影自然且短而锐利，产品主体居中，反光高光提亮，材质质感明显提升。左上角添加一个红色圆形角标，里面写「618 直降」和小字「立省 ¥300」。右下角加一行小字「现货 · 顺丰发货」。整体符合天猫/京东主图规范，无水印，无多余装饰。"
     },
     {
       "id": 13,
-      "title": "1/7 Scale Collectible Figure",
-      "category": "3d_figure",
-      "tags": ["figure", "bandai", "collectible"],
-      "models": ["nano-banana-2", "seedream-4"],
-      "prompt": "Turn the reference subject into a 1/7 scale collectible PVC figure displayed on a wooden desk. Behind the figure, a computer monitor shows a ZBrush sculpting wireframe of the same character. To the side, a BANDAI-style packaging box with printed art of the figure. Soft product photography lighting, shallow depth of field, realistic plastic shading, fine paint detail on face and clothes."
+      "title": "Holographic Trading Card",
+      "category": "merch_collectible",
+      "tags": ["card", "holographic", "collectible"],
+      "aspect_ratio": "3:4",
+      "prompt": "A premium holographic trading card, vertical 3:4 layout. Center: a cyberpunk samurai in a dynamic forward-leaning pose, vibrant cinematic backlighting in cyan and magenta. Border: ornate gold filigree with rune-like icons in the four corners. Top banner reads \"LEGENDARY\" in bold serif caps. Bottom panel: name plate \"REI · NIGHTBLADE\", three small stat icons (Power 92 / Speed 88 / Magic 71) with numeric values. Holographic foil effect with iridescent rainbow streaks, slight grain, soft studio backdrop. Crisp text, no logo drift."
     },
     {
       "id": 14,
-      "title": "Knitted Plush Toy",
-      "category": "3d_figure",
-      "tags": ["plush", "yarn", "cute"],
-      "models": ["nano-banana-pro"],
-      "prompt": "Transform the reference person into a hand-crocheted yarn plush toy held in cupped hands. Q-version chibi proportions, vibrant yarn texture with visible stitches, button eyes, embroidered smile. Cozy home environment background, warm window light, slight depth of field. Preserve the recognizable hairstyle and outfit colors from the reference."
+      "title": "Action Figure Blister Pack",
+      "category": "merch_collectible",
+      "tags": ["figure", "blister", "merch"],
+      "aspect_ratio": "3:4",
+      "prompt": "A stylized 6-inch action figure of a young female astronaut, sealed inside a premium plastic blister pack, photographed straight-on. The figure stands in a confident pose with a cracked helmet under one arm and a small flag in the other hand. Cardboard backing with the headline \"COSMIC EXPLORERS · WAVE 02\" in retro space-age font, character name plaque \"CDR. NOVA\" in the lower band, three accessory cutouts on the right (helmet, flag, mini rover). Studio softbox lighting, high-detail plastic texture, glossy bubble reflections, clean white background."
     },
     {
       "id": 15,
-      "title": "Bronze Trophy Statue",
-      "category": "3d_figure",
-      "tags": ["bronze", "statue", "museum"],
-      "models": ["nano-banana-2"],
-      "prompt": "Transform the reference subject into a polished bronze trophy statue on a marble base. Single-arm victory pose, metallic patina, mirror-bright highlights and deep shadows. Museum gallery lighting, dark velvet background, classical sculpture aesthetic. Engraved name plate on the base reading 'CHAMPION'. Keep the face features clearly recognizable as the reference."
+      "title": "Isometric Miniature Workshop",
+      "category": "illustration_style",
+      "tags": ["isometric", "3d", "saas"],
+      "aspect_ratio": "1:1",
+      "prompt": "A 45° top-down isometric miniature 3D scene of a tiny indie-developer workshop diorama on a wooden display base. Soft refined PBR textures, realistic materials, clean unified composition, minimalist aesthetic. Tiny props integrated into the architecture: a glowing laptop with a deploy progress bar, a stack of books labelled \"AGENTS\", \"SDK\" and \"DESIGN\", a coffee mug, a plant. Studio softbox lighting, subtle ambient occlusion, pastel palette dominated by sage green and warm cream. Square 1:1 frame, centered subject, plenty of negative space."
     },
     {
       "id": 16,
-      "title": "Marble Renaissance Sculpture",
-      "category": "3d_figure",
-      "tags": ["marble", "renaissance", "classical"],
-      "models": ["nano-banana-pro", "seedream-4"],
-      "prompt": "Convert the reference into a classical Carrara marble sculpture on a white marble pedestal. Polished surfaces with mirror highlights, fine veining detail, Renaissance contrapposto pose, drapery folds, cracked patina at the base. Dark gallery background, single warm spotlight from above-left. Preserve the original facial features carved into the marble."
+      "title": "6-Panel Retro Superhero Comic",
+      "category": "comic_manga",
+      "tags": ["comic", "80s", "narrative"],
+      "aspect_ratio": "16:9",
+      "prompt": "A 6-panel retro American superhero comic page in a 2×3 grid, drawn in 1980s Marvel/DC style: bold black outlines, flat primary colors (red, blue, yellow), Ben-Day halftone shading, slight aged paper texture, thin black panel borders with white gutters. Panel 1: female hero STARDUST in red cape and blue suit stands heroically. Caption: \"METRO CITY — DUSK.\" Speech: \"Trouble in the East District… time to fly!\" Panel 2: villain PROFESSOR GRIM beside a glowing doomsday device. Caption: \"MEANWHILE…\" Speech: \"In sixty seconds, this city will BOW to me!\" Panel 3: Stardust bursts through a window. Large SFX: \"KRA-KOOM!\" Panel 4: Stardust punches the villain. Speech: \"Not on my watch, Professor!\" Panel 5: villain tied up, small robot dog beside Stardust. Speech: \"Looks like class is dismissed, Doc.\" Panel 6: Stardust on a skyscraper overlooking the city. Caption: \"CONTINUED NEXT ISSUE!\" Consistent character design, classic all-caps comic lettering, vibrant inks. 16:9. No watermark."
     },
     {
       "id": 17,
-      "title": "3D Q-Version App Icon",
-      "category": "3d_figure",
-      "tags": ["chibi", "app-icon", "3d"],
-      "models": ["nano-banana-2"],
-      "prompt": "Transform the reference person into a 3D chibi Q-version app icon, similar to a mini clay figurine. Adorable proportions with oversized head, tiny body, large sparkling eyes. Soft vivid lighting, the character slightly breaks out of the rounded square icon frame to enhance the 3D pop-out feeling. Pastel gradient background. Keep recognizable facial features and clothing colors from the reference."
+      "title": "Cyberpunk Noir Manga Page",
+      "category": "comic_manga",
+      "tags": ["manga", "noir", "bw"],
+      "aspect_ratio": "2:3",
+      "prompt": "A 2x2 black-and-white manga page in the style of late-90s seinen noir, screen-tone shading, sharp ink linework, dramatic angles. Panel 1 (wide top): rain-soaked neon-lit alley, lone detective in a long coat, narration box \"Tokyo, 03:14. The case wasn't supposed to find me.\" Panel 2: close-up of detective's eyes under a wet brim hat, speech bubble \"…So why is it on my desk?\". Panel 3: he kicks open a metal door, SFX \"DON!\". Panel 4 (wide bottom): silhouette of a corporate suit at a window overlooking a megacity, speech bubble \"You should have stayed asleep, detective.\" Right-to-left reading order, vertical sound effects in katakana, deep blacks, fine halftone."
     },
     {
       "id": 18,
-      "title": "Studio Ghibli Anime Style",
-      "category": "style_transfer",
-      "tags": ["ghibli", "anime", "watercolor"],
-      "models": ["nano-banana-pro", "seedream-4"],
-      "prompt": "Convert the reference photo to hand-drawn Studio Ghibli style anime art. Large expressive eyes, flowing hair with light streaks, soft watercolor palette, simple gradients, cherry blossom petals floating, distant rolling green hills, fluffy cumulus clouds. Soft outline, warm afternoon light. Keep the original hair color and outfit colors recognizable."
+      "title": "Hitman in OpenAI HQ",
+      "category": "game_screenshot",
+      "tags": ["game", "stealth", "screenshot"],
+      "aspect_ratio": "16:9",
+      "prompt": "An in-game screenshot from a Hitman-style stealth game. The level is set inside the OpenAI HQ in San Francisco, sleek glass walls, exposed concrete, branded meeting rooms named \"GPT-6\", \"Sora\", \"Voice\". Agent 47 in a dark suit and red tie is hiding behind a meeting room glass partition watching two engineers walk past with laptops. Top-left HUD: minimap, mission objective \"STEAL GPT-6 WEIGHTS · NO WITNESSES\", suspicion meter low. Bottom-right: silenced pistol icon, fiber wire icon. Cinematic teal-and-orange grade, depth of field on the foreground plant, console-game look."
     },
     {
       "id": 19,
-      "title": "Origami Paper Sculpture",
-      "category": "style_transfer",
-      "tags": ["origami", "paper", "minimal"],
-      "models": ["nano-banana-2"],
-      "prompt": "Transform the reference subject into an intricate white paper origami sculpture. Visible creases, layered geometric folds, fine paper texture, 45-degree studio lighting casting dramatic fold shadows. Plain dark gradient backdrop. Maintain the silhouette and pose of the original photo."
+      "title": "GTA 6 Beach Walk Screenshot",
+      "category": "game_screenshot",
+      "tags": ["game", "open-world", "ultra-realistic"],
+      "aspect_ratio": "16:9",
+      "prompt": "GTA 6 in-game footage, very detailed, very realistic. Close-up tracking shot taken from a stationary 4K monitor of a young woman in a tank top and shorts walking along a Vice City beach with her golden retriever on a leash. Bright morning light, palm trees, neon hotel signs in the soft-focus background, jet-skis in the bay. Top-left HUD: minimap, health bar, weapon wheel hint. Bottom-right ammo counter \"9mm · 12/120\". Subtle film grain, faint chromatic aberration, modern open-world realism."
     },
     {
       "id": 20,
-      "title": "Street Graffiti Mural",
-      "category": "style_transfer",
-      "tags": ["graffiti", "street-art", "urban"],
-      "models": ["nano-banana-pro"],
-      "prompt": "Transform the reference into a vibrant street graffiti mural on a worn brick wall. Bold black outlines, neon spray colors (electric blue, hot pink, lime green), paint drips and over-spray texture. Recognizable face features stylized with graphic flat shading. Urban alley background with graffiti tags around. Slight wide-angle perspective."
+      "title": "Black Myth Wukong Battle Frame",
+      "category": "game_screenshot",
+      "tags": ["game", "fantasy", "cn"],
+      "aspect_ratio": "21:9",
+      "prompt": "Generate a Black Myth: Wukong in-game cinematic frame. The Destined One (孙悟空) is mid-air, just knocked back by 二郎神's three-pointed double-edged spear. Sparks and shattered stone debris fly in all directions, golden Buddhist seals dissolving around the impact. Cliffside Tang-dynasty ruined temple in the background, swirling mist, deep red dusk sky. Lower HUD: stamina bar, health bar at 23%, focus orbs ×3, two skill icons on cooldown. Heavy cinematic motion blur, anamorphic flare, ultra-realistic Chinese mythological art direction."
     },
     {
       "id": 21,
-      "title": "Holographic Y2K Effect",
-      "category": "style_transfer",
-      "tags": ["holographic", "y2k", "iridescent"],
-      "models": ["nano-banana-2"],
-      "prompt": "Apply a rainbow holographic shimmer across the entire reference image. Iridescent skin, hair and clothing with chromatic aberration, prism lens flares, Y2K holographic atmosphere, high saturation. Pearlescent silver background with subtle gradient. Keep the subject's identity and pose intact."
+      "title": "Sam Altman Skatepark Snapshot",
+      "category": "amateur_realistic",
+      "tags": ["celebrity", "candid", "iphone"],
+      "aspect_ratio": "4:3",
+      "prompt": "Sam Altman on a skateboard at an empty skatepark, late afternoon. Casual dad-vibe outfit: gray hoodie, blue jeans, white sneakers. Mid-roll on a mellow ramp, slightly off-balance, half-grin. Shot with an iPhone, slight motion blur, no people in the background, harsh sun shadows. Looks like a real candid photo someone took on the way home, not a posed editorial."
     },
     {
       "id": 22,
-      "title": "Architecture Cardboard Model",
-      "category": "creative",
-      "tags": ["model", "architecture", "miniature"],
-      "models": ["nano-banana-pro"],
-      "prompt": "Convert this photo into an architecture model on a desk. Behind the model, place a cardboard box with a printed image of the architecture from the photo on it. Add a computer to the side, with the screen showing the original photograph. Warm desk lamp lighting, blueprints and sketch tools scattered nearby. Realistic miniature scale and shadows."
+      "title": "Tim Cook Apple Park Crowd Shot",
+      "category": "amateur_realistic",
+      "tags": ["candid", "iphone", "event"],
+      "aspect_ratio": "4:3",
+      "prompt": "Amateur iPhone photo at Apple Park during the iPhone 20 keynote, Tim Cook on the Steve Jobs Theater stage in front of a giant title slide reading \"INTRODUCING IPHONE 20\". Shot from the middle of the crowd at a distance, slightly tilted, raised hands and other phones in the foreground partially blocking the view. Dim auditorium, bright stage, slight glare on the lens, jpeg compression artifacts. No professional staging."
     },
     {
       "id": 23,
-      "title": "Phone Screen 3D Illusion",
-      "category": "creative",
-      "tags": ["forced-perspective", "phone", "surreal"],
-      "models": ["nano-banana-2"],
-      "prompt": "Create a forced-perspective image where a tiny version of the reference person appears to stand on top of a smartphone screen held in a giant hand. Dramatic size contrast, accurate cast shadow on the phone glass, screen UI faintly visible, surreal photography effect. Soft window light, neutral cafe background. Maintain the original facial identity at miniature scale."
+      "title": "RAW iPhone Subway Blur",
+      "category": "amateur_realistic",
+      "tags": ["iphone", "raw", "candid"],
+      "aspect_ratio": "4:3",
+      "prompt": "Create a completely RAW quality, unprocessed, unedited image with full iPhone camera quality. A subway station in NYC, a momentary motion blur as the train enters. In front of the train, an elderly woman and an elderly man waiting near the yellow line, both wearing winter coats. Tile walls, fluorescent overhead lights, faint reflections on the platform floor. No HDR pop, no AI sharpening, just an honest snapshot."
     },
     {
       "id": 24,
-      "title": "Worm's-Eye Group Selfie",
-      "category": "viral",
-      "tags": ["fisheye", "group", "gen-z"],
-      "models": ["nano-banana-pro"],
-      "prompt": "A dramatic ultra-wide, low-angle group shot taken from ground level looking straight up (worm's-eye view). 6-8 people including the reference subject form a loose circle around the camera, leaning in and looking down into the lens. Faces and hands are close, slightly stretched fisheye effect. Some reach toward the camera with playful hand signs, others laugh. Energetic carefree Gen-Z street-style mood. 10-14mm wide-angle lens distortion, bright saturated colors, high contrast, punchy sunlight, slight overexposure on skin highlights. Keep the reference person's face identical."
+      "title": "2003 Digital Camera Family Snapshot",
+      "category": "amateur_realistic",
+      "tags": ["nostalgia", "2000s", "family"],
+      "aspect_ratio": "4:3",
+      "prompt": "Generate a photo from 2003, shot with a low-resolution digital camera, of a five-year-old child with their mom and dad in the courtyard of a residential compound in China. Slight overexposure, harsh on-camera flash, red-eye effect, low dynamic range, bottom-right yellow date stamp \"2003 07 18\". Clothing typical of early-2000s mainland China: father in a polo shirt, mother in a floral blouse, child in shorts holding a popsicle. Concrete buildings, parked bicycles, a green tarp shade in the back."
     },
     {
       "id": 25,
-      "title": "Music Player UI Overlay",
-      "category": "viral",
-      "tags": ["ui", "vertical", "neon"],
-      "models": ["nano-banana-2"],
-      "prompt": "Place the reference subject on a moody neon-lit street at night. Overlay a glass-morphism music player UI in the lower third with frosted blur, rounded corners, song title 'Midnight Drive', artist name, progress bar, play button. Purple and pink neon reflections on wet pavement. 9:16 vertical format, cinematic teal-and-magenta grade."
+      "title": "90s Point-and-Shoot Bedroom",
+      "category": "amateur_realistic",
+      "tags": ["90s", "film", "bedroom"],
+      "aspect_ratio": "3:2",
+      "prompt": "A 1990s point-and-shoot 35mm film snapshot of a teenage girl sitting on her bed, holding a portable CD player, headphones around her neck. Posters of indie bands taped to the wall, a stack of magazines, fairy lights. Direct on-camera flash with hard shadow against the wall, slight red-eye, soft yellow-cyan color cast, heavy film grain, a small white date stamp \"08 14 99\" in the bottom-right corner. Composition slightly off-center, like a real personal photo."
     },
     {
       "id": 26,
-      "title": "Cartoon Sticker Self",
-      "category": "viral",
-      "tags": ["sticker", "cartoon", "die-cut"],
-      "models": ["nano-banana-pro"],
-      "prompt": "Transform the reference person into a cute Q-version cartoon sticker. Exaggerated expression, thick black outline, solid flat colors, glossy die-cut sticker edge with white border, small drop shadow. Speech bubble that says 'VIBE CHECK!'. Place on a transparent or pastel background. Recognizable hairstyle and outfit colors."
+      "title": "Convenience Store Night Group",
+      "category": "photorealistic_portrait",
+      "tags": ["lifestyle", "ultra-realistic", "night"],
+      "aspect_ratio": "3:2",
+      "prompt": "Create an ultra-realistic urban street group photo at a convenience store entrance at 10 PM, summer night. 3-4 young people briefly chatting, one holding a drink, one sitting on a plastic chair, one looking at their phone. Bright cool white light streaming through the glass doors and windows, warm yellow streetlights and distant car headlights outside. Everyday clothes: T-shirts, shorts, jeans, sneakers — no influencer styling. Faces and postures must look like real pedestrians, not overly polished. Real convenience-store details: freezer stickers, promo posters, a trash can, an entrance mat, glass reflections, a shared bike on the curb, water droplets from cold drink bottles on the ground. Looks like a candid photographer's slice-of-life shot."
     },
     {
       "id": 27,
-      "title": "Shop Window Cartoon Reflection",
-      "category": "viral",
-      "tags": ["reflection", "shop-window", "cartoon"],
-      "models": ["nano-banana-2"],
-      "prompt": "{\"edit_type\":\"shop_window_cartoon_reflection\",\"camera\":\"phone_extreme_wide_angle\",\"scene\":\"city_street_storefront\",\"reflection_style\":\"flat_2d_cartoon_version_of_subject\",\"preserve\":[\"subject_face\",\"clothing\",\"pose\"],\"swap\":[\"reflection_only\"],\"lighting\":\"daylight_neutral\",\"mood\":\"playful\"}"
+      "title": "35mm Cafe Window Portrait",
+      "category": "photorealistic_portrait",
+      "tags": ["35mm", "moody", "rain"],
+      "aspect_ratio": "2:3",
+      "prompt": "A young woman by a rain-streaked café window at dusk, reading a worn paperback. 35mm film aesthetic, soft window light from the left, warm tungsten fill from the café interior, rain droplets in sharp focus on the glass, the city outside in soft bokeh with red and amber bus lights. Quiet, contemplative mood. Visible film grain, slight halation in highlights, gentle desaturation in shadows. No phones, no logos."
     },
     {
       "id": 28,
-      "title": "Outfit Swap from Reference Photo 2",
-      "category": "fashion",
-      "tags": ["ootd", "outfit-swap", "multi-image"],
-      "models": ["nano-banana-pro", "flux-kontext"],
-      "prompt": "Take the person from image 1 and dress them in all the clothing and accessories from image 2. Outdoor natural daylight, fashion street style, full-body shot, clear focus. Maintain the person's identity and pose continuity from image 1. Adjust fabric folds and shadows realistically to fit the new body."
+      "title": "Tokyo Yellow Raincoat Night",
+      "category": "photorealistic_portrait",
+      "tags": ["cinematic", "neon", "tokyo"],
+      "aspect_ratio": "16:9",
+      "prompt": "A cinematic photograph of a single figure in a bright yellow vinyl raincoat, hood up, walking down a narrow Tokyo alley at night. Wet asphalt mirror-reflects the neon signs in Japanese kanji and katakana on either side — \"居酒屋\", \"カラオケ\", \"24時間\". Steam rising from a vent, distant red lantern glow, anamorphic lens flare around the brightest sign. Shot on a 35mm anamorphic, slight grain, deep teal shadows, saturated highlights."
     },
     {
       "id": 29,
-      "title": "Vogue Editorial Fashion",
-      "category": "fashion",
-      "tags": ["editorial", "vogue", "high-fashion"],
-      "models": ["nano-banana-2"],
-      "prompt": "Position the reference subject as a high-end fashion editorial. Sleek black turtleneck, oversized beige blazer, gold layered jewelry, slicked-back ponytail, dramatic contoured makeup with bold red lips. Vogue-style cover composition with copy space at the top. Studio lighting with hard shadow on a beige paper backdrop. Keep facial structure identical."
+      "title": "Hands Kneading Bread Dough",
+      "category": "photorealistic_portrait",
+      "tags": ["food", "macro", "lifestyle"],
+      "aspect_ratio": "1:1",
+      "prompt": "A close-up photograph of weathered hands kneading bread dough on a floured wooden surface. Soft directional window light from the upper-left, fine flour dust caught in the beam, visible skin texture and small flour smears, dough showing realistic stretch and surface tension. Background slightly out of focus showing a linen towel and a vintage scale. Warm earthy tones, shallow depth of field, square 1:1 crop, editorial cookbook feel."
     },
     {
       "id": 30,
-      "title": "Tailored Business Suit Swap",
-      "category": "fashion",
-      "tags": ["suit", "wardrobe-swap", "men"],
-      "models": ["nano-banana-pro"],
-      "prompt": "Replace the reference subject's clothing with a perfectly tailored charcoal suit, crisp white dress shirt, navy striped tie, silver watch, black leather oxford shoes, 1/4 inch shirt cuff showing. Maintain the original pose, body proportions, and facial features. Realistic fabric texture, natural shadow folds at the elbows and knees."
+      "title": "Rice Grain Micro Typography",
+      "category": "photorealistic_portrait",
+      "tags": ["macro", "text", "viral"],
+      "aspect_ratio": "1:1",
+      "prompt": "A massive pile of white rice grains, photographed with extreme macro lens at f/8. Shallow depth of field on a single grain near the center which has tiny, perfectly legible black engraved text reading \"wOw\". Soft daylight from above, gentle shadows between grains, no other text or markings on any other grain. Clean, almost scientific look. Aspect ratio 1:1."
     },
     {
       "id": 31,
-      "title": "Beach Wave Hair Transformation",
-      "category": "fashion",
-      "tags": ["hair", "beach-wave", "highlights"],
-      "models": ["nano-banana-2"],
-      "prompt": "Change the reference subject's hairstyle to long beachy waves with caramel and honey highlights blended into a darker base, sun-kissed effect, tousled sea-wind texture, healthy gloss, face-framing layers, natural appearance. Keep face, makeup, eyes, and outfit unchanged."
+      "title": "Caustic Whiskey Glass Study",
+      "category": "product_photography",
+      "tags": ["liquid", "caustics", "studio"],
+      "aspect_ratio": "4:5",
+      "prompt": "A cinematic still-life photograph of a cut-crystal whiskey tumbler with two ice cubes and amber whiskey, sitting on a polished black walnut surface. A single hard backlight produces sharp caustic light patterns through the crystal onto the wood. Tiny condensation droplets cling to the glass exterior, one slow drip running down. Dark moody background, slight smoke drifting through the beam. 100mm macro lens, f/5.6, no logos, no text."
     },
     {
       "id": 32,
-      "title": "Streetwear Style Conversion",
-      "category": "fashion",
-      "tags": ["streetwear", "urban", "casual"],
-      "models": ["nano-banana-pro"],
-      "prompt": "Restyle the reference subject in oversized black hoodie, layered white tee, black cargo pants with multiple pockets, white chunky sneakers, backwards baseball cap, silver chain, crossbody bag. Urban concrete background with graffiti, slight wide-angle. Preserve the face exactly, adjust pose to a relaxed slouched stance."
+      "title": "Floating Sneaker Hero Shot",
+      "category": "product_photography",
+      "tags": ["sneaker", "studio", "ad"],
+      "aspect_ratio": "1:1",
+      "prompt": "A high-end sneaker (clean white runner with mint accents) photographed floating in front of a deep matte black background. Hard rim light from the upper-right outlining the silhouette, soft fill from below, realistic suspended shadow on an invisible surface. Tiny dust particles drifting in the light. Glossy laces with realistic tension and individual fiber detail. Subtle motion-blur drag on a shoelace tip. Studio commercial look, no brand logos."
     },
     {
       "id": 33,
-      "title": "Beach Jewelry Display",
-      "category": "product",
-      "tags": ["jewelry", "beach", "lifestyle"],
-      "models": ["nano-banana-2", "seedream-4"],
-      "prompt": "Show this gold necklace on a sandy beach with gentle morning light and soft shadows, scattered seashells, wet sand reflections, slight defocus on the horizon. Macro detail on the engraving, golden hour warmth. Keep the product's exact shape, engraving, and color from the reference image."
+      "title": "Artisan Honey Jar Label",
+      "category": "product_photography",
+      "tags": ["packaging", "label", "warm"],
+      "aspect_ratio": "4:5",
+      "prompt": "Product photography of a single artisan honey jar on a soft cream paper background with a faint linen texture. The jar has a hexagonal silhouette, raw cork lid, twine wrap, and a label that reads \"WILDFLOWER HONEY\" in serif uppercase, beneath it \"Harvest 2026 · 340g · raw / unfiltered\" in small italic. Subtle illustration of a honeycomb and a single bee on the label. Slow honey drip down the side, soft top-down side light, gentle shadow on the right. No other text, label perfectly aligned and legible."
     },
     {
       "id": 34,
-      "title": "Boho Tote Bag Lifestyle",
-      "category": "product",
-      "tags": ["bag", "boho", "lifestyle"],
-      "models": ["nano-banana-pro"],
-      "prompt": "Add a soft boho-style living-room background behind this linen tote bag, with warm sunlight streaming through sheer curtains, rattan textures, neutral beige tones, dried pampas grass in a vase. Slight depth of field, casual editorial composition. Preserve the bag's exact texture, color and logo."
+      "title": "Watch on Navy Velvet Macro",
+      "category": "product_photography",
+      "tags": ["watch", "macro", "luxury"],
+      "aspect_ratio": "16:9",
+      "prompt": "A close-up macro photograph of a luxury automatic watch resting on dark navy velvet. Stainless steel case with brushed and polished surfaces, blue sunburst dial, applied silver indices, slim sword hands at 10:08. Shallow depth of field on the crown, fine fabric texture of the velvet, soft directional reflection on the polished bezel, faint warm reflection on the sapphire crystal. No brand logo on the dial — keep dial center clean. 100mm macro, f/4."
     },
     {
       "id": 35,
-      "title": "Premium 3D Podium Product Shot",
-      "category": "product",
-      "tags": ["podium", "studio", "ad"],
-      "models": ["nano-banana-2"],
-      "prompt": "Place this product on a premium 3D podium with soft studio lighting, subtle gradient background (light gray to white), and a clean shadow beneath it. Add abstract floating geometric shapes in pastel tones around the podium. Hero advertising composition, centered. Keep the product completely unchanged."
+      "title": "Solar Panel Infographic",
+      "category": "infographic_diagram",
+      "tags": ["education", "english", "flow"],
+      "aspect_ratio": "16:9",
+      "prompt": "A clean editorial infographic titled \"HOW SOLAR PANELS WORK\" with five labeled horizontal flow steps from left to right, each in its own rounded card with a simple line icon: 1) \"SUNLIGHT HITS PANEL\" (sun + panel icon), 2) \"PHOTONS EXCITE ELECTRONS\" (atom icon), 3) \"DC ELECTRICITY GENERATED\" (battery icon), 4) \"INVERTER CONVERTS TO AC\" (wave icon), 5) \"POWERS YOUR HOME / GRID\" (house icon). Soft pastel palette: sage, sand, cream, soft yellow. Light off-white background, thin connecting arrows, small footnote text \"Source: U.S. DOE, 2025\". Crisp readable typography, no watermark."
     },
     {
       "id": 36,
-      "title": "Underwater Bottle Shot",
-      "category": "product",
-      "tags": ["underwater", "caustics", "splash"],
-      "models": ["nano-banana-pro"],
-      "prompt": "Show this bottle submerged in clear turquoise ocean water, with caustic light reflections shimmering on the surface, tiny air bubbles rising, soft sandy seafloor far below, sunbeams cutting through the water column. Glossy water droplets on the label. Keep the product label readable and unchanged."
+      "title": "Earth Layers Educational Diagram",
+      "category": "infographic_diagram",
+      "tags": ["science", "diagram", "education"],
+      "aspect_ratio": "1:1",
+      "prompt": "A clean educational diagram of Earth's interior layers shown as a quartered cross-section. From outside in: \"CRUST\" (thin grey-brown), \"UPPER MANTLE\" (warm orange), \"LOWER MANTLE\" (deep red-orange), \"OUTER CORE\" (bright molten yellow), \"INNER CORE\" (white-hot). Each layer labeled with its name, depth range in km (e.g. \"0–35 km\", \"35–660 km\", \"660–2900 km\", \"2900–5150 km\", \"5150–6371 km\") and a one-line description. Thin leader lines, soft pastel sky background, sans-serif labels, textbook style, all numbers correct."
     },
     {
       "id": 37,
-      "title": "Marble Countertop Skincare",
-      "category": "product",
-      "tags": ["skincare", "marble", "natural-light"],
-      "models": ["nano-banana-2"],
-      "prompt": "Place this skincare jar on a white marble countertop with natural window light from the left and soft depth of field. Add a single eucalyptus sprig and a folded linen cloth. Subtle reflection of the jar on the polished marble. Clean, premium skincare ad aesthetic. Preserve the product exactly."
+      "title": "Cell Structure Bilingual Diagram",
+      "category": "infographic_diagram",
+      "tags": ["biology", "chinese", "education"],
+      "aspect_ratio": "4:3",
+      "prompt": "细胞结构示意图，包含细胞核（Nucleus）、线粒体（Mitochondria）、内质网（Endoplasmic Reticulum）、高尔基体（Golgi Apparatus）、核糖体、细胞膜、溶酶体。每个结构带中英文双语标注，使用细引线箭头清晰指示，各结构分层、配色柔和（淡蓝、柠黄、薄荷、玫瑰），白色背景，简洁生物教材风格，文字清晰无错别字，不要乱码。"
     },
     {
       "id": 38,
-      "title": "Ecommerce White Background",
-      "category": "product",
-      "tags": ["ecommerce", "white-bg", "amazon"],
-      "models": ["nano-banana-pro", "seedream-4"],
-      "prompt": "Create a clean ecommerce-ready pure white seamless background for this product. Crisp natural shadow under the product, sharp edges including hair and fine details, edge rim lighting for separation, professional Amazon/Shopify product standard. Keep the product's exact shape, color, label and proportions."
+      "title": "Coffee vs Tea Comparison",
+      "category": "infographic_diagram",
+      "tags": ["comparison", "lifestyle", "data"],
+      "aspect_ratio": "4:5",
+      "prompt": "A two-column comparison infographic titled \"COFFEE vs TEA\". Left column header \"COFFEE\" in espresso brown with a steaming cup icon. Right column \"TEA\" in matcha green with a teacup icon. Six metric rows, each with an icon and clear values for both sides: \"CAFFEINE (mg / 8oz)\" 95 vs 47, \"ANTIOXIDANTS\" High vs Very High, \"AVG SERVE TIME\" 4 min vs 3 min, \"GLOBAL CONSUMERS\" 1.0B vs 2.0B, \"BEST PAIRS WITH\" Croissant vs Mochi, \"MOOD\" Sharp focus vs Calm focus. Off-white background, thin dividers, friendly rounded sans-serif, small footnote \"Illustrative figures, 2026\"."
     },
     {
       "id": 39,
-      "title": "Floating Hero Lipstick Shot",
-      "category": "product",
-      "tags": ["floating", "cosmetics", "hero-shot"],
-      "models": ["nano-banana-2"],
-      "prompt": "Turn this lipstick into a floating hero shot with suspended particles (powder, petals, glitter dust) orbiting around it, minimal monochrome backdrop in deep red. Sharp focus on the lipstick, motion blur on the orbiting particles, dramatic side light. Keep the lipstick design and color identical."
+      "title": "ORIN Coffee Brand Logo Set",
+      "category": "logo_branding",
+      "tags": ["logo", "minimal", "branding"],
+      "aspect_ratio": "1:1",
+      "prompt": "A logo system for a specialty coffee brand called \"ORIN\" presented on a single off-white sheet. Top-left: primary wordmark — \"ORIN\" in a confident geometric sans-serif, the letter O subtly formed by an abstract flame-leaf curl. Top-right: secondary monogram — just the stylized O on its own. Bottom-left: monochrome version (deep espresso brown). Bottom-right: small tagline lockup \"ORIN — slow roasted, slow lived.\" Hairline grid guidelines barely visible. Crisp vector look, no watermark, no other extra text."
     },
     {
       "id": 40,
-      "title": "Flatlay Kitchen Knife",
-      "category": "product",
-      "tags": ["flatlay", "kitchen", "top-down"],
-      "models": ["nano-banana-pro"],
-      "prompt": "Place this chef's knife in a top-down flatlay with matching kitchen props: cutting board, scattered herbs, garlic cloves, sea salt, linen napkin, copper pot in the corner. Wooden table textures, balanced color harmony with warm and earthy tones, soft natural light from above-left. Preserve the knife exactly."
+      "title": "RIDGE Outdoor Brand Mark",
+      "category": "logo_branding",
+      "tags": ["logo", "outdoor", "circular"],
+      "aspect_ratio": "1:1",
+      "prompt": "A circular badge logo for an outdoor adventure brand called \"RIDGE\". Inside the circle: a stylized two-mountain silhouette with a small pine row at the base and a thin sunrise arc behind the peaks. Around the inside of the circle border, the text \"RIDGE · ESTABLISHED 2026 · WANDER WELL\" set in confident uppercase serif, kerned widely so it reads cleanly. Color: deep forest green on cream. Subtle linen paper texture beneath. No other elements, no watermark."
     },
     {
       "id": 41,
-      "title": "Background Replacement Sunset City",
-      "category": "background_replace",
-      "tags": ["background", "sunset", "city"],
-      "models": ["nano-banana-2", "flux-kontext"],
-      "prompt": "Replace the background of this subject with a realistic urban sunset skyline showing skyscraper silhouettes, warm orange and magenta sky, distant haze, scattered clouds. Maintain proper rim light on the subject matching the sunset direction, ambient sky color reflected on the skin, accurate shadows on the ground. Keep the subject 100% identical."
+      "title": "Premium Water Bottle Hiking Ad",
+      "category": "ad_creative",
+      "tags": ["lifestyle", "ad", "outdoor"],
+      "aspect_ratio": "4:5",
+      "prompt": "A premium lifestyle ad for an insulated stainless-steel water bottle. A young woman hikes along a high-alpine ridge at golden hour, mountains receding into haze behind her, holding the bottle naturally at her side. The bottle is matte sage green with no visible logos. Top of frame: bold serif headline \"BUILT FOR THE LONG WAY\". Bottom: small sans-serif tagline \"Hydration that goes the distance. — Vessel Co.\" and a small product shot in the corner with the line \"24oz · 24h cold · 12h hot\". Cinematic warm color grade, slight grain. 4:5 aspect."
     },
     {
       "id": 42,
-      "title": "Pure White Studio Replace",
-      "category": "background_replace",
-      "tags": ["studio", "white", "cutout"],
-      "models": ["nano-banana-pro"],
-      "prompt": "Replace the background with a pure white seamless studio backdrop. Preserve all subject detail including individual strands of hair, fabric edges and accessories. Add a soft natural contact shadow at the feet, subtle edge rim lighting. Professional ecommerce / catalog standard. Do not alter the subject."
+      "title": "Skincare Minimal Square Ad",
+      "category": "ad_creative",
+      "tags": ["skincare", "minimal", "social"],
+      "aspect_ratio": "1:1",
+      "prompt": "A square minimalist skincare ad. Pale blush pink background with a soft top-down shadow, a single frosted-glass serum bottle centered with a subtle dropper. Top-third headline in modern serif: \"YOUR SKIN. SIMPLIFIED.\" Below it in thin uppercase sans: \"ONE BOTTLE · FIVE STEPS REPLACED\". Bottom-right small product info \"30ml · niacinamide · hyaluronic acid · ceramides\" and a tiny brand mark \"AERA\". Crisp legible text, ample whitespace, magazine-grade composition."
     },
     {
       "id": 43,
-      "title": "Object Removal & Cleanup",
-      "category": "photo_enhance",
-      "tags": ["cleanup", "remove-objects"],
-      "models": ["nano-banana-2", "flux-kontext"],
-      "prompt": "Remove all background distractions from this photo, including wires, litter, signs, parked cars and pedestrians, while seamlessly blending the surrounding environment. Preserve the original lighting, perspective and color balance. Do not alter the main subject in any way."
+      "title": "Summer Sale Social Graphic",
+      "category": "ad_creative",
+      "tags": ["sale", "social", "ig"],
+      "aspect_ratio": "1:1",
+      "prompt": "A vibrant summer sale Instagram graphic. Sunset gradient background (peach to coral), giant playful display headline \"UP TO 50% OFF\" in chunky rounded sans, slight bouncing baseline. Below in tighter sans: \"SUMMER SALE — ENDS JULY 31\". Three floating product cutouts (sunglasses, straw hat, tote bag) casting soft realistic shadows. Bottom-left CTA pill button: \"SHOP NOW →\". Bottom-right small handle: \"@solstice.studio\". Crisp text, square 1:1."
     },
     {
       "id": 44,
-      "title": "Cinematic Teal-Orange Grade",
-      "category": "photo_enhance",
-      "tags": ["color-grade", "cinematic", "teal-orange"],
-      "models": ["nano-banana-pro"],
-      "prompt": "Apply a moody cinematic teal-and-orange color grade to this outdoor scene. Increase contrast, enhance sunlight highlights toward warm orange, deepen shadows toward teal, slight S-curve, lifted blacks for film feel. Add fine 35mm film grain. Keep composition, subject and details exactly the same."
+      "title": "Surreal Koi Nebula",
+      "category": "illustration_style",
+      "tags": ["surreal", "fantasy", "illustration"],
+      "aspect_ratio": "9:16",
+      "prompt": "A surrealist digital illustration with a low-angle upward perspective. A giant translucent koi fish with iridescent scales swims through a dreamlike nebula, surrounded by vivid star clusters, drifting bubbles and faint orbital rings. A tiny silhouette of a human figure stands on a calm reflective water surface in the lower third, gazing up at the massive koi looming overhead. Soft watercolor blending into painterly digital brushwork, deep indigo to magenta sky, warm golden highlights on the koi. Vertical 9:16 composition, awe-inspiring scale, no text."
     },
     {
       "id": 45,
-      "title": "Portrait Skin & Eye Enhance",
-      "category": "photo_enhance",
-      "tags": ["retouch", "portrait", "natural"],
-      "models": ["nano-banana-2"],
-      "prompt": "Enhance this portrait by smoothing skin while keeping pores and natural texture, brightening eyes and adding subtle catchlights, whitening teeth slightly, evening out skin tone, adding soft cinematic lighting. Avoid plastic or doll-like effects. Do not change the face shape or identity."
+      "title": "Watercolor Editorial Illustration",
+      "category": "illustration_style",
+      "tags": ["watercolor", "editorial", "soft"],
+      "aspect_ratio": "3:4",
+      "prompt": "A dreamy watercolor illustration of a young woman walking a long-haired dog along a quiet European canal in autumn. Light impressionist aesthetic, loose visible brushstrokes and translucent washes in tones of dusty teal, ochre and faded rose. Soft blur on the edges, delicate morning light, falling leaves, minimalist approach with deliberate empty space. No text, no watermark. 3:4 portrait."
     },
     {
       "id": 46,
-      "title": "Movie Poster Treatment",
-      "category": "photo_enhance",
-      "tags": ["poster", "letterbox", "cinematic"],
-      "models": ["nano-banana-pro"],
-      "prompt": "Apply a movie poster treatment to this image: letterbox 2.39:1, cyan-orange color grading, volumetric light beams cutting through the air, high contrast, fine film grain, lens flare top-right, heroic centered composition. Add subtle dust particles in the light. Preserve subject identity."
+      "title": "Epic Silhouette World Poster",
+      "category": "poster_typography",
+      "tags": ["double-exposure", "anime", "epic"],
+      "aspect_ratio": "2:3",
+      "prompt": "Collectible epic poster featuring a young swordsman's side-profile silhouette as the main canvas. Inside the silhouette grows a complete fantasy world: floating islands, a winding river, distant temple ruins, drifting cherry blossoms, a small dragon coiled in the eye, and the swordsman's allies as tiny figures along the cheekbone path. Outside the silhouette: a deep indigo sky with constellations and ink-wash clouds. Cinematic poster meets dreamlike watercolor illustration, high-density detail, strong chiaroscuro, sacred-yet-ominous mood. Bottom: title \"THE LAST INK\" in elegant serif and a small tagline \"a story drawn in one breath\"."
     },
     {
       "id": 47,
-      "title": "High-Contrast B&W Portrait",
-      "category": "photo_enhance",
-      "tags": ["bw", "monochrome", "portrait"],
-      "models": ["nano-banana-2"],
-      "prompt": "Convert this portrait to a high-contrast black-and-white photograph. Enhanced detail and texture in skin and fabric, dodge-and-burn dimensional lighting on the face, grainy film aesthetic, sharp eyes with strong catchlights. Deep blacks and clean highlights. Keep facial features and pose identical."
+      "title": "Impossible Escher Library",
+      "category": "illustration_style",
+      "tags": ["surreal", "architecture", "escher"],
+      "aspect_ratio": "1:1",
+      "prompt": "A surreal architectural illustration of an impossible library inspired by M.C. Escher: staircases that connect at right angles defying gravity, bookshelves on every plane including the ceiling, tiny robed figures climbing in multiple impossible orientations, soft warm lantern light from countless reading nooks, deep shadows in the unreachable corners. Subtle pencil-line architectural overlays, sepia and ink palette, fine cross-hatching, surreal but mathematically convincing perspective. Square format, no text."
     },
     {
       "id": 48,
-      "title": "Before / After Split Compare",
-      "category": "photo_enhance",
-      "tags": ["before-after", "split", "compare"],
-      "models": ["nano-banana-pro"],
-      "prompt": "Create a vertical split-screen comparison of this image. Left half labeled 'BEFORE' in muted desaturated tone with the original input. Right half labeled 'AFTER' with enhanced color, contrast and clarity. Clean dividing line, aligned features across both halves, modern sans-serif labels, subtle drop shadow on the divider."
+      "title": "Korean Idol 3×3 Grid Portrait",
+      "category": "photorealistic_portrait",
+      "tags": ["k-pop", "grid", "9:16"],
+      "aspect_ratio": "9:16",
+      "prompt": "9:16 vertical, Korean idol portrait photoshoot, 3×3 grid (nine frames) of the same young woman, perfectly consistent facial features, hairstyle and styling across all nine frames. Soft black-mist filter effect, slightly lowered contrast, blooming highlights, gentle film grain. Each frame has a distinct pose: looking down, side profile, hand near jaw, looking up, candid laugh, hair flip, soft smile, eyes closed, direct gaze. Outfit: cream knit cardigan over thin white tee. Studio with off-white seamless backdrop. Thin black frame separators between cells. No watermark, no text on the image."
     },
     {
       "id": 49,
-      "title": "Line Drawing Sketch on Notebook",
-      "category": "creative",
-      "tags": ["sketch", "line-drawing", "notebook"],
-      "models": ["nano-banana-2"],
-      "prompt": "Create a photo-style line drawing / ink sketch of the face from the reference image, keeping every facial feature, proportion, and expression exactly the same. Use blue and white ink tones with intricate fine line detailing on a notebook-page background with faint ruled lines. Show a right hand holding a pen and an eraser near the sketch as if the artist is still working."
+      "title": "CCD Flash Candid Snapshot",
+      "category": "amateur_realistic",
+      "tags": ["ccd", "flash", "candid"],
+      "aspect_ratio": "4:3",
+      "prompt": "Mobile phone photo using a digital CCD camera aesthetic. Harsh on-camera flash, grainy, dim messy indoor lighting, candid snapshot feeling, slight motion blur, slightly green-yellow color cast typical of early-2000s CCD sensors. Subject: a young Asian woman mid-laugh holding a slice of pizza, sitting on the floor of a crowded apartment party with mismatched furniture and string lights. Date stamp \"2025 11 04\" small in the bottom-right. Looks like a real friend's phone photo, not editorial."
     },
     {
       "id": 50,
-      "title": "Fantasy Magic Effect Aura",
-      "category": "creative",
-      "tags": ["fantasy", "magic", "particles"],
-      "models": ["nano-banana-pro", "seedream-4"],
-      "prompt": "Add glowing magical particles orbiting the reference subject, mystical aura emanating from the hands and eyes, swirling energy ribbons, mysterious dark forest background with bokeh light spheres, theatrical dramatic side lighting, fantasy art aesthetic. Slight wind blowing the hair and clothing. Keep the subject's facial identity unchanged."
+      "title": "Detective's Investigation Slide Deck",
+      "category": "ui_mockup",
+      "tags": ["slide", "presentation", "data"],
+      "aspect_ratio": "16:9",
+      "prompt": "A professional boardroom presentation slide rendered as if shown on a 16:9 monitor. Slide title in bold sans: \"FY2026 MARKET OUTLOOK — AI INFRASTRUCTURE\". Three KPI tiles across the top: \"TAM · $42B\", \"SAM · $8.7B\", \"SOM · $340M\". Below: a clean bar chart titled \"Market growth 2021–2026\" with subtle upward trend, value labels on top of each bar (3.1B, 6.4B, 11.2B, 18.9B, 28.4B, 42.0B), Y-axis labelled \"USD (B)\", X-axis years. To the right of the chart, three short bullet takeaways. Bottom-left footnote: \"Source: AGI Research, 2026\". Bottom-right slide number \"04 / 22\". Calm corporate palette of navy, white and amber. Crisp legible text, accurate numbers."
     }
   ]
 }
