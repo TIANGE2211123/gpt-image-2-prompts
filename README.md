@@ -6,7 +6,7 @@ Pick a card, copy the prompt, or send it straight into a Capy chat to generate.
 
 **Live demo:** https://tiange2211123.github.io/gpt-image-2-prompts/
 
-![cover](assets/happycapy-lockup.png)
+![cover](assets/cover.png)
 
 ---
 
