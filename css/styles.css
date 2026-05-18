@@ -410,18 +410,16 @@ body { padding-left: 64px; }
 }
 .card__img {
   width: 100%;
+  height: 100%;
   display: block;
   object-fit: cover;
-  aspect-ratio: 4 / 5;
+  object-position: center;
   transition: transform .5s ease;
 }
-.card[data-ratio="16:9"] .card__img { aspect-ratio: 16 / 9; }
-.card[data-ratio="9:16"] .card__img { aspect-ratio: 9 / 16; }
-.card[data-ratio="1:1"]  .card__img { aspect-ratio: 1 / 1; }
-.card[data-ratio="4:5"]  .card__img { aspect-ratio: 4 / 5; }
-.card[data-ratio="3:4"]  .card__img { aspect-ratio: 3 / 4; }
-.card[data-ratio="2:3"]  .card__img { aspect-ratio: 2 / 3; }
-.card[data-ratio="3:2"]  .card__img { aspect-ratio: 3 / 2; }
+/* Force a uniform card-media frame so the grid is perfectly aligned regardless
+   of the prompt's intended aspect ratio. The aspect_ratio chip in the corner
+   still surfaces the original intent. */
+.card__media { aspect-ratio: 4 / 5; }
 .card:hover .card__img { transform: scale(1.04); }
 
 .card__badges {
@@ -918,6 +916,7 @@ body { padding-left: 64px; }
 .featCard__media {
   position: relative; background: var(--bg-3);
   overflow: hidden;
+  aspect-ratio: 4 / 5;
 }
 .featCard__media img {
   width: 100%; height: 100%; object-fit: cover;

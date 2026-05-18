@@ -1,6 +1,6 @@
 # GPT Image 2 Prompts · Curated Gallery
 
-A copy-paste-ready gallery of **36 hand-picked GPT Image 2 (img2) prompts** — curated by [Happycapy](https://www.happycapy.ai) from YouMind, TopAI, EvoLink, MeiGen, and the `awesome-gpt-image-2-prompts` community repo, then re-tested and tagged.
+A copy-paste-ready gallery of **36 hand-picked GPT Image 2 (img2) prompts** — curated by [Happycapy](https://www.happycapy.ai), re-tested with GPT Image 2, and tagged for category, difficulty and aspect ratio.
 
 Pick a card, copy the prompt, or send it straight into a Capy chat to generate.
 
@@ -65,18 +65,11 @@ Each entry in `data/prompts.json` looks like:
 }
 ```
 
-## Sources & credits
+## Credits
 
-Prompts were collected and adapted from:
+All preview images were generated locally with GPT Image 2 to match each prompt as written.
 
-- [YouMind](https://youmind.com)
-- [TopAI](https://topai.ink)
-- [EvoLink](https://evolink.ai)
-- [`awesome-gpt-image-2-prompts`](https://github.com/) community curation
-
-All preview images were re-generated locally with GPT Image 2 to match the prompt as written.
-
-Brand styling, type system, and the "Try in Capy" deep-link are by [Happycapy](https://www.happycapy.ai).
+Brand styling, type system, and the "Try in Capy" deep link are by [Happycapy](https://www.happycapy.ai).
 
 ## Contributing
 
@@ -89,5 +82,3 @@ PRs welcome. To add a prompt:
 ## License
 
 [MIT](LICENSE) © 2026 Happycapy
-
-The prompts themselves are aggregated from public sources and reproduced for educational and reference purposes; please credit the original authors when you reuse them at scale.

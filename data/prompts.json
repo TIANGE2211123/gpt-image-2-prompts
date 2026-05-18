@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "GPT Image 2 Prompt Gallery",
-    "description": "Curated, copy-and-paste prompts for GPT Image 2 (img2). Cross-referenced from youmind.com, topai.ink, evolink.ai, meigen.ai and the awesome-gpt-image-2-prompts repository.",
+    "description": "Curated, copy-and-paste prompts for GPT Image 2 (img2), hand-picked and re-tested by Happycapy.",
     "version": "1.0.0",
     "updated_at": "2026-05-16",
     "model_default": "gpt-image-2",
@@ -99,14 +99,6 @@
         "label": "Expert",
         "color": "#dc2626"
       }
-    ],
-    "sources": [
-      "https://www.youmind.com/gpt-image-2-prompts",
-      "https://topai.ink/zh",
-      "https://gpt-image2.canghe.ai",
-      "https://evolink.ai/gpt-image-2-prompts",
-      "https://meigen.ai",
-      "https://github.com/EvoLinkAI/awesome-gpt-image-2-prompts"
     ]
   },
   "prompts": [
