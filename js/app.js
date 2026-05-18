@@ -213,7 +213,7 @@ function cardHtml(p) {
       <div class="card__desc">${escapeHtml(p.description)}</div>
       <div class="card__meta">${tags}</div>
       <div class="card__footer">
-        ${p.source_site && p.source_site !== "meigen.ai" ? `<span class="card__source">via ${escapeHtml(p.source_site)}</span>` : `<span class="card__source"></span>`}
+        <span class="card__source"></span>
         <div class="card__actions">
           <button class="card__btn js-open" type="button">View</button>
           <button class="card__btn js-copy" data-id="${p.id}" type="button">

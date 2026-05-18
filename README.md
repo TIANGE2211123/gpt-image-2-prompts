@@ -60,7 +60,6 @@ Each entry in `data/prompts.json` looks like:
   "aspect_ratio": "16:9",
   "difficulty": "medium",
   "preview_image_url": "images/01-cinematic-still.jpg",
-  "source_site": "youmind.com",
   "featured": true,
   "trending_score": 92
 }
