@@ -1,0 +1,1346 @@
+{
+  "meta": {
+    "title": "GPT Image 2 Prompt Gallery",
+    "description": "Curated, copy-and-paste prompts for GPT Image 2 (img2). Cross-referenced from youmind.com, topai.ink, evolink.ai, meigen.ai and the awesome-gpt-image-2-prompts repository.",
+    "version": "1.0.0",
+    "updated_at": "2026-05-16",
+    "model_default": "gpt-image-2",
+    "total": 36,
+    "categories": [
+      {
+        "id": "all",
+        "label": "All",
+        "icon": "sparkles"
+      },
+      {
+        "id": "portraits-photography",
+        "label": "Portraits & Photography",
+        "icon": "camera"
+      },
+      {
+        "id": "poster-flyer",
+        "label": "Posters & Flyers",
+        "icon": "poster"
+      },
+      {
+        "id": "product-photography",
+        "label": "Product Photography",
+        "icon": "package"
+      },
+      {
+        "id": "movie-cinematic",
+        "label": "Movie & Cinematic",
+        "icon": "film"
+      },
+      {
+        "id": "character-design",
+        "label": "Character Design",
+        "icon": "user-square"
+      },
+      {
+        "id": "ui-app-mockup",
+        "label": "UI / App Mockup",
+        "icon": "layout"
+      },
+      {
+        "id": "illustration-3d",
+        "label": "Illustration & 3D",
+        "icon": "shapes"
+      },
+      {
+        "id": "infographic-educational",
+        "label": "Infographic",
+        "icon": "chart"
+      },
+      {
+        "id": "social-media",
+        "label": "Social / Carousel",
+        "icon": "grid"
+      },
+      {
+        "id": "travel-poster",
+        "label": "Travel Poster",
+        "icon": "compass"
+      },
+      {
+        "id": "gaming-ui",
+        "label": "Gaming UI",
+        "icon": "gamepad"
+      },
+      {
+        "id": "fashion-editorial",
+        "label": "Fashion Editorial",
+        "icon": "shirt"
+      },
+      {
+        "id": "food-drink",
+        "label": "Food & Drink",
+        "icon": "utensils"
+      }
+    ],
+    "difficulty_levels": [
+      {
+        "id": "beginner",
+        "label": "Beginner",
+        "color": "#16a34a"
+      },
+      {
+        "id": "intermediate",
+        "label": "Intermediate",
+        "color": "#2563eb"
+      },
+      {
+        "id": "advanced",
+        "label": "Advanced",
+        "color": "#ea580c"
+      },
+      {
+        "id": "expert",
+        "label": "Expert",
+        "color": "#dc2626"
+      }
+    ],
+    "sources": [
+      "https://www.youmind.com/gpt-image-2-prompts",
+      "https://topai.ink/zh",
+      "https://gpt-image2.canghe.ai",
+      "https://evolink.ai/gpt-image-2-prompts",
+      "https://meigen.ai",
+      "https://github.com/EvoLinkAI/awesome-gpt-image-2-prompts"
+    ]
+  },
+  "prompts": [
+    {
+      "id": "convenience-store-neon-portrait",
+      "title": "Convenience Store Neon Portrait",
+      "description": "Late-night convenience store film portrait with mixed fluorescent and neon lighting, cinematic 35mm grain.",
+      "prompt": "35mm film photography with harsh convenience store fluorescent lighting mixed with colorful neon signs from outside, authentic film grain, high contrast, cinematic street editorial style, intimate medium shot, late-night convenience store atmosphere, realistic reflections on glass, natural skin texture, oversized white shirt, black mini skirt, messy high ponytail, seductive but grounded urban portrait energy, no watermark, no text.",
+      "category": "portraits-photography",
+      "tags": [
+        "35mm film",
+        "neon",
+        "cinematic",
+        "night",
+        "street"
+      ],
+      "model": "gpt-image-2",
+      "aspect_ratio": "4:5",
+      "difficulty": "intermediate",
+      "style_keywords": [
+        "analog film",
+        "fluorescent + neon",
+        "high contrast"
+      ],
+      "is_template": false,
+      "requires_reference_image": false,
+      "preview_image_url": "images/01-convenience-store-neon.jpg",
+      "source_site": "evolink.ai",
+      "featured": true,
+      "trending_score": 98,
+      "likes": 1248,
+      "views": 24310,
+      "copies": 4123,
+      "language": "en"
+    },
+    {
+      "id": "sci-fi-movie-teaser-poster",
+      "title": "Sci-Fi Movie Teaser Poster — INVENTOR",
+      "description": "16:9 cinematic teaser with a lone silhouette facing a massive holographic chamber, golden volumetric light, serif title typography.",
+      "prompt": "Create a cinematic sci-fi movie teaser poster in 16:9 landscape format. A lone woman stands in silhouette at the center, viewed from behind, facing an enormous cubic chamber filled with thousands of glowing holographic screens and data panels stretching in every direction. The screens display fragments of landscapes, cities, galaxies, and abstract data. A bright golden-white light source emanates from the center of the chamber, casting volumetric rays and lens flare. The title 'INVENTOR' is displayed in wide-spaced uppercase serif typography at the bottom center. Below it, the tagline 'DISCOVERY IS JUST THE BEGINNING' in smaller caps, and 'COMING SOON' at the very bottom. Dark moody atmosphere, deep blues and warm amber highlights, photorealistic lighting, epic sense of scale, no other characters visible.",
+      "category": "movie-cinematic",
+      "tags": [
+        "sci-fi",
+        "poster",
+        "16:9",
+        "volumetric light",
+        "title design"
+      ],
+      "model": "gpt-image-2",
+      "aspect_ratio": "16:9",
+      "difficulty": "advanced",
+      "style_keywords": [
+        "cinematic",
+        "holographic",
+        "golden hour",
+        "lens flare"
+      ],
+      "is_template": true,
+      "template_variables": [
+        "title",
+        "tagline"
+      ],
+      "requires_reference_image": false,
+      "preview_image_url": "images/02-sci-fi-teaser.jpg",
+      "source_site": "evolink.ai",
+      "featured": true,
+      "trending_score": 95,
+      "likes": 1102,
+      "views": 21874,
+      "copies": 3640,
+      "language": "en"
+    },
+    {
+      "id": "soft-airy-35mm-portrait",
+      "title": "Soft Airy 35mm Portrait",
+      "description": "Pastel-toned, airy Japanese-style portrait near a window with soft diffused daylight.",
+      "prompt": "Analog 35mm film photography, soft airy Japanese-style aesthetic, gentle diffused natural window light, slight overexposure, pastel tones, low contrast, soft highlights, minimal indoor setting near a window with white curtains, clean light-colored wall, natural composition, eye-level, slightly closer full-body framing (mid-thigh to head), young East Asian woman, natural minimal makeup, soft realistic skin texture, long slightly messy dark hair, oversized white button-up shirt, light casual shorts, barefoot, simple and relaxed styling, standing naturally with relaxed posture, arms loosely at sides, facing camera, gentle soft smile, subtle stillness, focus on light, air, and quiet everyday mood, soft film grain, dreamy and understated atmosphere.",
+      "category": "portraits-photography",
+      "tags": [
+        "35mm film",
+        "japanese",
+        "pastel",
+        "natural light",
+        "lifestyle"
+      ],
+      "model": "gpt-image-2",
+      "aspect_ratio": "4:5",
+      "difficulty": "beginner",
+      "style_keywords": [
+        "airy",
+        "low contrast",
+        "pastel",
+        "window light"
+      ],
+      "is_template": false,
+      "requires_reference_image": false,
+      "preview_image_url": "images/03-airy-35mm.jpg",
+      "source_site": "evolink.ai",
+      "featured": true,
+      "trending_score": 91,
+      "likes": 988,
+      "views": 18712,
+      "copies": 3210,
+      "language": "en"
+    },
+    {
+      "id": "vintage-amalfi-travel-poster",
+      "title": "Vintage Amalfi Travel Poster",
+      "description": "Retro 1950s screen-print travel poster of the Amalfi Coast with classic white car and lemon trees.",
+      "prompt": "Modern pencil illustration of a vintage travel poster for the Amalfi Coast, Italy. Panoramic coastal cliff road scene, a classic 1960s white car driving along a curved seaside road, deep blue Mediterranean sea with small sailboats, pastel hillside village, bright blue sky, and lemon tree branches framing the foreground. Warm summer sunlight, bold vibrant colors, retro 1950s travel poster style, screen print texture, hand-drawn contours, and a decorative editorial finish.",
+      "category": "travel-poster",
+      "tags": [
+        "travel",
+        "retro",
+        "screenprint",
+        "italy",
+        "illustration"
+      ],
+      "model": "gpt-image-2",
+      "aspect_ratio": "2:3",
+      "difficulty": "intermediate",
+      "style_keywords": [
+        "1950s travel poster",
+        "screen print",
+        "hand-drawn"
+      ],
+      "is_template": true,
+      "template_variables": [
+        "destination"
+      ],
+      "requires_reference_image": false,
+      "preview_image_url": "images/04-amalfi-travel.jpg",
+      "source_site": "evolink.ai",
+      "featured": true,
+      "trending_score": 89,
+      "likes": 902,
+      "views": 16520,
+      "copies": 2810,
+      "language": "en"
+    },
+    {
+      "id": "vintage-newspaper-front-page",
+      "title": "Vintage Newspaper Front Page",
+      "description": "Hyper-real B&W newspaper front page with masthead, columns, headline and aged paper texture.",
+      "prompt": "Create the most realistic front page design of a vintage newspaper. The layout should be made in the style of a real printed newspaper with a cinematic black-and-white aesthetic. The main photo should be prominently placed in the center, framed like an editorial article header. Create a bold, attention-grabbing headline at the top with a smaller subtitle underneath. Add realistic newspaper elements: columns of small text, a fictitious publication name at the top, date, issue number and location, decorative lines, dividers, and vintage typography, small additional articles or captions. Style: black and white or slightly faded monochrome paper, fine paper texture, grain, and ink defects, small shadows and creases that mimic real printed paper. The aesthetics of a clean but slightly worn vintage newspaper. Aspect ratio: 4:5, high-detail, ultra-realistic hybrid of editorial photography and print design.",
+      "category": "poster-flyer",
+      "tags": [
+        "typography",
+        "vintage",
+        "editorial",
+        "black and white"
+      ],
+      "model": "gpt-image-2",
+      "aspect_ratio": "4:5",
+      "difficulty": "advanced",
+      "style_keywords": [
+        "newspaper",
+        "letterpress",
+        "monochrome"
+      ],
+      "is_template": true,
+      "template_variables": [
+        "headline",
+        "publication_name",
+        "date"
+      ],
+      "requires_reference_image": false,
+      "preview_image_url": "images/05-newspaper.jpg",
+      "source_site": "evolink.ai",
+      "featured": false,
+      "trending_score": 84,
+      "likes": 712,
+      "views": 13402,
+      "copies": 2140,
+      "language": "en"
+    },
+    {
+      "id": "adventure-character-design-sheet",
+      "title": "Adventure Character Design Sheet — Lira",
+      "description": "Production-ready character turnaround with expressions, equipment breakdown, palette and silhouette poses.",
+      "prompt": "Create a detailed character design sheet for 'Lira', a young female explorer-mechanic-inventor who travels across frozen lands in search of forgotten technology. Include front, side, and back turnaround views showing her full outfit: olive-green fur-lined parka with hood, golden knit scarf, brown utility belt with brass buckle, cargo pants, and insulated boots. Add a row of six facial expressions (default, happy, determined, surprised, angry, sad). Include an equipment breakdown section showing gloves, tool pouch, belt and buckle, and boots as separate items. Add a warm earth-tone color palette strip, three silhouette poses, and a small 'World' thumbnail showing a snowy mountain village. Clean off-white background, thin layout guides, semi-realistic painterly illustration style with soft lighting and visible brushwork.",
+      "category": "character-design",
+      "tags": [
+        "character sheet",
+        "turnaround",
+        "concept art",
+        "painterly"
+      ],
+      "model": "gpt-image-2",
+      "aspect_ratio": "16:9",
+      "difficulty": "expert",
+      "style_keywords": [
+        "character sheet",
+        "turnaround",
+        "production art"
+      ],
+      "is_template": true,
+      "template_variables": [
+        "character_name",
+        "outfit",
+        "world"
+      ],
+      "requires_reference_image": false,
+      "preview_image_url": "images/06-character-sheet.jpg",
+      "source_site": "evolink.ai",
+      "featured": true,
+      "trending_score": 92,
+      "likes": 1340,
+      "views": 19980,
+      "copies": 3050,
+      "language": "en"
+    },
+    {
+      "id": "browser-game-ad-creative-poster",
+      "title": "Pro Browser Game Ad Poster",
+      "description": "1:1 polished promo poster with strong hierarchy and modern campaign typography.",
+      "prompt": "Create a 1:1 promotional poster that feels like it was designed by a professional ad designer. Make it suitable for books, courses, events, or browser-game promotion. Use strong visual hierarchy, polished typography, bold but modern composition, clear callout text blocks, and premium campaign-level finishing.",
+      "category": "poster-flyer",
+      "tags": [
+        "ad",
+        "campaign",
+        "typography",
+        "1:1"
+      ],
+      "model": "gpt-image-2",
+      "aspect_ratio": "1:1",
+      "difficulty": "beginner",
+      "style_keywords": [
+        "campaign poster",
+        "modern typography"
+      ],
+      "is_template": true,
+      "template_variables": [
+        "product",
+        "headline",
+        "tagline"
+      ],
+      "requires_reference_image": false,
+      "preview_image_url": "images/07-game-ad.jpg",
+      "source_site": "evolink.ai",
+      "featured": false,
+      "trending_score": 76,
+      "likes": 612,
+      "views": 11200,
+      "copies": 1845,
+      "language": "en"
+    },
+    {
+      "id": "chinese-fantasy-epic-movie-poster",
+      "title": "Chinese Fantasy Epic Movie Poster",
+      "description": "Horizontal blockbuster movie poster with ensemble cast pyramid, golden energy rings and CINITY/IMAX badges.",
+      "prompt": "Create a horizontal Chinese blockbuster movie poster for a fantasy adventure film titled '天机启明' with subtitle '失落的文明'. The poster features a dramatic ensemble cast composition: five to six realistic character headshots arranged in a layered pyramid formation, with the two leads (a rugged long-haired warrior and a stern older man with glasses) prominent in the center. Behind them, a glowing ancient tower emits golden circular energy rings against a dramatic sky. The left side shows burning ruins, the right side shows traditional Chinese architecture. The title '天机启明' is rendered in large stylized golden Chinese calligraphy at the bottom center, with the subtitle below. Include theatrical release information: '2025 大年初一', format badges (3D, CINITY, IMAX, Dolby Cinema, Dolby Atmos), director and producer credits in small Chinese text along the sides. Dark cinematic color grading with warm amber highlights and deep teal shadows, photorealistic face rendering, epic scale composition.",
+      "category": "movie-cinematic",
+      "tags": [
+        "movie poster",
+        "chinese",
+        "fantasy",
+        "ensemble cast"
+      ],
+      "model": "gpt-image-2",
+      "aspect_ratio": "16:9",
+      "difficulty": "expert",
+      "style_keywords": [
+        "blockbuster poster",
+        "calligraphy title",
+        "teal-amber grading"
+      ],
+      "is_template": true,
+      "template_variables": [
+        "film_title",
+        "subtitle",
+        "release_date"
+      ],
+      "requires_reference_image": false,
+      "preview_image_url": "images/08-chinese-fantasy.jpg",
+      "source_site": "evolink.ai",
+      "featured": true,
+      "trending_score": 88,
+      "likes": 982,
+      "views": 17650,
+      "copies": 2470,
+      "language": "zh"
+    },
+    {
+      "id": "fujifilm-strawberry-school-portrait",
+      "title": "Fujifilm Strawberry School Portrait",
+      "description": "9:16 Fuji Pro 400H school-uniform portrait with halation, soft daylight and a strawberry held to lips.",
+      "prompt": "9:16 vertical – Japanese Fuji film style portrait, single subject. Fujifilm analog aesthetic (Pro 400H / Superia feel), soft pastel tones, slight green-magenta shift, low contrast, gentle highlight roll-off, fine film grain, subtle halation, slight vignette. Bright natural daylight, diffused sunlight through window, soft shadows, airy atmosphere. Young female idol, natural minimal makeup, fresh glowing skin, realistic texture. Outfit: Japanese school uniform (sailor-style or blazer), neatly styled, youthful and clean. Hair: natural dark hair, straight or softly flowing, a few loose strands. Pose: front-facing, relaxed posture, one hand gently holding a strawberry near lips, mid-action as if about to take a bite. Expression: soft playful gaze, light smile, gentle eye contact with camera. Setting: minimal indoor near window, clean background, everyday atmosphere. Mood: fresh, youthful, sweet everyday moment, understated charm.",
+      "category": "portraits-photography",
+      "tags": [
+        "fujifilm",
+        "portrait",
+        "9:16",
+        "halation"
+      ],
+      "model": "gpt-image-2",
+      "aspect_ratio": "9:16",
+      "difficulty": "intermediate",
+      "style_keywords": [
+        "fuji pro 400h",
+        "halation",
+        "school uniform"
+      ],
+      "is_template": false,
+      "requires_reference_image": false,
+      "preview_image_url": "images/09-fuji-strawberry.jpg",
+      "source_site": "evolink.ai",
+      "featured": false,
+      "trending_score": 86,
+      "likes": 870,
+      "views": 14260,
+      "copies": 2230,
+      "language": "en"
+    },
+    {
+      "id": "starfall-reserve-gacha-banner",
+      "title": "STARFALL RESERVE Gacha Banner",
+      "description": "Premium fictional gacha lootbox banner with rarity tiers, cosmic palette and event countdown layout.",
+      "prompt": "Create a premium, highly believable Lootbox / Capsule Drop Ad for an imaginary drop called 'STARFALL RESERVE'. Design as a vertical gacha banner: featured character lineup at the top with glowing aura, rarity tier system (common, rare, epic, legendary, mythic) with distinct iconography, event duration countdown ('LIMITED — ENDS IN 7D 12H'), drop rate table at the bottom, sparkling particles and cosmic nebula background. Color palette: midnight blue, deep purple, silver, with violet accent glow. Typography: ornate metallic gold serif title, clean white body, neon-edged buttons. Mood: prestige, anticipation, premium gacha monetization aesthetic.",
+      "category": "gaming-ui",
+      "tags": [
+        "gacha",
+        "ui",
+        "game",
+        "banner",
+        "fantasy"
+      ],
+      "model": "gpt-image-2",
+      "aspect_ratio": "9:16",
+      "difficulty": "advanced",
+      "style_keywords": [
+        "gacha banner",
+        "premium ui",
+        "cosmic"
+      ],
+      "is_template": true,
+      "template_variables": [
+        "event_name",
+        "duration",
+        "characters"
+      ],
+      "requires_reference_image": false,
+      "preview_image_url": "images/10-gacha-banner.jpg",
+      "source_site": "meigen.ai",
+      "featured": true,
+      "trending_score": 90,
+      "likes": 1056,
+      "views": 16800,
+      "copies": 2640,
+      "language": "en"
+    },
+    {
+      "id": "astra-loop-console-ad",
+      "title": "ASTRA LOOP Handheld Console Ad",
+      "description": "Minimalist Apple-style launch poster for a fictional handheld gaming device.",
+      "prompt": "Create a premium, highly believable fictional handheld game console launch ad for a device called 'ASTRA LOOP'. Design language: minimalist futurist, soft industrial curves, matte white front bezel, charcoal back, recessed thumbsticks, circular accent OLED. Studio lighting on a soft gradient background (warm gray to off-white), subtle floor reflection. Layout: oversized device hero shot left, clean serif logotype 'ASTRA LOOP' top right, tagline 'Carry the loop. Carry the future.' below, three feature bullet rows with monoline icons (display, battery, haptics), and a small 'LAUNCHING SOON' chip. Apple/Sony product launch poster aesthetic. Aspect ratio 16:9.",
+      "category": "product-photography",
+      "tags": [
+        "product",
+        "industrial design",
+        "minimalist",
+        "tech"
+      ],
+      "model": "gpt-image-2",
+      "aspect_ratio": "16:9",
+      "difficulty": "advanced",
+      "style_keywords": [
+        "industrial design",
+        "studio lighting",
+        "apple-style ad"
+      ],
+      "is_template": true,
+      "template_variables": [
+        "product_name",
+        "tagline",
+        "features"
+      ],
+      "requires_reference_image": false,
+      "preview_image_url": "images/11-astra-loop.jpg",
+      "source_site": "meigen.ai",
+      "featured": false,
+      "trending_score": 87,
+      "likes": 894,
+      "views": 14120,
+      "copies": 2210,
+      "language": "en"
+    },
+    {
+      "id": "zenleaf-wellness-tea-poster",
+      "title": "ZENLEAF Wellness Tea Poster",
+      "description": "Premium spa-mood tea brand campaign with sage palette and fresh ingredients.",
+      "prompt": "Create a premium wellness advertising poster for an imaginary tea brand called 'ZENLEAF'. Hero composition: a steaming ceramic cup beside an opened tea box, surrounded by fresh herbs, ginger root, dried citrus and loose leaves, soft morning sunlight on a pale linen surface. Color palette: soft sage green, cream, warm beige, with accents of gold foil. Typography: refined modern serif for the brand name, lowercase friendly sans for the tagline 'A quieter morning.' Add small ingredient callouts in italic, a 'ORGANIC · SLOW CRAFTED' lockup at bottom. Style: editorial wellness ad, spa-like calm, premium commercial photography. 4:5 vertical.",
+      "category": "product-photography",
+      "tags": [
+        "wellness",
+        "tea",
+        "ad",
+        "lifestyle"
+      ],
+      "model": "gpt-image-2",
+      "aspect_ratio": "4:5",
+      "difficulty": "intermediate",
+      "style_keywords": [
+        "spa palette",
+        "editorial product",
+        "natural light"
+      ],
+      "is_template": true,
+      "template_variables": [
+        "brand_name",
+        "tagline"
+      ],
+      "requires_reference_image": false,
+      "preview_image_url": "images/12-zenleaf-tea.jpg",
+      "source_site": "meigen.ai",
+      "featured": false,
+      "trending_score": 82,
+      "likes": 712,
+      "views": 11400,
+      "copies": 1760,
+      "language": "en"
+    },
+    {
+      "id": "omotesando-tokyo-travel-sketch",
+      "title": "Omotesando Tokyo Travel Sketch",
+      "description": "Pen-and-watercolor minimalist travel sketch poster of Tokyo's tree-lined Omotesando.",
+      "prompt": "Minimalist ultra-high-resolution travel sketch poster of Omotesando, Tokyo. Refined pen line drawing combined with translucent watercolor washes — tree-lined avenue with mid-rise architecture, pedestrians, café terraces and a single yellow taxi for accent color. Off-white paper background, hand-lettered title 'OMOTESANDŌ' top, small 'TOKYO · 表参道' subtitle, a fine compass-rose ornament. Loose ink contours, soft color bleed, plenty of negative space. 9:16 vertical poster.",
+      "category": "travel-poster",
+      "tags": [
+        "travel",
+        "sketch",
+        "watercolor",
+        "tokyo"
+      ],
+      "model": "gpt-image-2",
+      "aspect_ratio": "9:16",
+      "difficulty": "intermediate",
+      "style_keywords": [
+        "watercolor",
+        "ink line",
+        "minimalist"
+      ],
+      "is_template": true,
+      "template_variables": [
+        "destination",
+        "subtitle"
+      ],
+      "requires_reference_image": false,
+      "preview_image_url": "images/13-omotesando.jpg",
+      "source_site": "meigen.ai",
+      "featured": true,
+      "trending_score": 85,
+      "likes": 798,
+      "views": 12990,
+      "copies": 2010,
+      "language": "en"
+    },
+    {
+      "id": "black-reliquary-boss-fight-screen",
+      "title": "BLACK RELIQUARY Boss Fight Screen",
+      "description": "Soulslike-style boss reveal UI with gothic cathedral framing and HP encounter hierarchy.",
+      "prompt": "Create a premium, highly believable soulslike boss-fight intro screen UI. Boss name 'MOTHER VEYR — THE HOLLOW MATRIARCH' rendered in tall narrow blackletter at the lower-third, with a thin animated HP bar beneath broken into 3 phase segments. Background: a silhouette of a towering robed figure inside a ruined gothic cathedral, broken stained glass shafts of cold blue light, particle ash drifting upward. UI ornaments at the corners: filigree gothic frames, a small relic-icon at top center. Color: bone white, cold cyan, deep burgundy. 16:9 in-game UI mockup, photorealistic environment with crisp diegetic UI.",
+      "category": "gaming-ui",
+      "tags": [
+        "soulslike",
+        "ui",
+        "game",
+        "gothic"
+      ],
+      "model": "gpt-image-2",
+      "aspect_ratio": "16:9",
+      "difficulty": "expert",
+      "style_keywords": [
+        "diegetic UI",
+        "blackletter",
+        "gothic"
+      ],
+      "is_template": true,
+      "template_variables": [
+        "boss_name",
+        "subtitle"
+      ],
+      "requires_reference_image": false,
+      "preview_image_url": "images/14-boss-fight.jpg",
+      "source_site": "meigen.ai",
+      "featured": true,
+      "trending_score": 89,
+      "likes": 1124,
+      "views": 17310,
+      "copies": 2580,
+      "language": "en"
+    },
+    {
+      "id": "k-fashion-editorial-poster",
+      "title": "K-Fashion Editorial Poster",
+      "description": "Hyper-stylized fashion editorial cover with pop-art typography and holographic effects.",
+      "prompt": "Ultra-stylized high-fashion editorial poster of a confident young Asian female model, retro pop-art magazine aesthetics combined with iridescent holographic effects, 2000s Y2K-meets-modern luxury styling, oversized sunglasses, chrome accessories. Composition: full body slightly low angle on a colored seamless backdrop, magazine masthead 'NEON / SEOUL' top in bold display type, issue date and barcode bottom right, scattered editorial captions in tiny serif italic, glossy magazine paper finish. 8K hyper-detailed, fashion editorial cover energy. 4:5 vertical.",
+      "category": "fashion-editorial",
+      "tags": [
+        "fashion",
+        "editorial",
+        "y2k",
+        "magazine"
+      ],
+      "model": "gpt-image-2",
+      "aspect_ratio": "4:5",
+      "difficulty": "advanced",
+      "style_keywords": [
+        "pop-art editorial",
+        "holographic",
+        "magazine"
+      ],
+      "is_template": true,
+      "template_variables": [
+        "masthead",
+        "issue"
+      ],
+      "requires_reference_image": false,
+      "preview_image_url": "images/15-kfashion.jpg",
+      "source_site": "meigen.ai",
+      "featured": false,
+      "trending_score": 81,
+      "likes": 690,
+      "views": 11000,
+      "copies": 1620,
+      "language": "en"
+    },
+    {
+      "id": "baskin-robbins-campaign-poster",
+      "title": "Surreal Ice Cream Fantasy Campaign",
+      "description": "Brand campaign visual with oversized typography and a dreamlike ice-cream universe.",
+      "prompt": "Create a surreal ice-cream fantasy world campaign visual for an imaginary fictional ice-cream brand. A colossal sundae mountain rises from a candy ocean, oversized scoops rendered with hyper-real texture, sprinkles falling like rain, floating waffle-cone islands. Oversized statement typography: '31 FLAVORS. ONE FANTASY.' set in a chunky display serif, cracked ice texture on the letters. Color palette: bubblegum pink, cream, mint, butter yellow. Mood: joyful, magical realism, premium FMCG advertising. 4:5 vertical campaign poster.",
+      "category": "food-drink",
+      "tags": [
+        "ice cream",
+        "campaign",
+        "typography",
+        "magical realism"
+      ],
+      "model": "gpt-image-2",
+      "aspect_ratio": "4:5",
+      "difficulty": "intermediate",
+      "style_keywords": [
+        "surreal scale",
+        "FMCG poster",
+        "magical realism"
+      ],
+      "is_template": true,
+      "template_variables": [
+        "headline",
+        "brand"
+      ],
+      "requires_reference_image": false,
+      "preview_image_url": "images/16-icecream.jpg",
+      "source_site": "meigen.ai",
+      "featured": false,
+      "trending_score": 79,
+      "likes": 644,
+      "views": 10410,
+      "copies": 1545,
+      "language": "en"
+    },
+    {
+      "id": "spring-mineral-water-ad",
+      "title": "SPRING Mineral Water Ad",
+      "description": "Crystal-clean beverage ad with droplets and forest-green palette.",
+      "prompt": "Premium mineral water advertisement poster featuring a fresh-faced young man beside a crystal-clear glass bottle covered in chilled water droplets, splashes frozen mid-air around the bottle. Background: minimalist gradient of arctic white to forest green, soft fog, hint of pine silhouettes. Typography: clean modern sans serif brand name 'SPRING' large and centered above the bottle, tagline 'Pure since the first stone.' below, small certification icons at bottom. Premium beverage advertising style, hyper-real macro detail. 4:5 vertical.",
+      "category": "product-photography",
+      "tags": [
+        "beverage",
+        "ad",
+        "macro",
+        "minimalist"
+      ],
+      "model": "gpt-image-2",
+      "aspect_ratio": "4:5",
+      "difficulty": "intermediate",
+      "style_keywords": [
+        "macro product",
+        "splash photography",
+        "minimalist"
+      ],
+      "is_template": true,
+      "template_variables": [
+        "brand",
+        "tagline"
+      ],
+      "requires_reference_image": false,
+      "preview_image_url": "images/17-water-ad.jpg",
+      "source_site": "meigen.ai",
+      "featured": false,
+      "trending_score": 77,
+      "likes": 588,
+      "views": 9670,
+      "copies": 1430,
+      "language": "en"
+    },
+    {
+      "id": "golden-morn-cereal-campaign",
+      "title": "GOLDEN MORN Cereal Campaign",
+      "description": "Viral FMCG breakfast poster with retro-modern typography and floating ingredients.",
+      "prompt": "Create a viral FMCG poster campaign for a breakfast cereal brand 'GOLDEN MORN'. Hero: a ceramic bowl of golden cereal flakes with milk splash mid-pour, oversized retro-modern condensed display typography 'GOOD MORNINGS START LOUD', floating breakfast ingredients (oats, honey drizzle, blueberries, almonds) suspended around the bowl on a sunlit kitchen counter, bright golden hour lighting, warm pastel kitchen background. Premium commercial food photography, vibrant healthy energy, 1:1 social-first format.",
+      "category": "food-drink",
+      "tags": [
+        "cereal",
+        "fmcg",
+        "breakfast",
+        "social"
+      ],
+      "model": "gpt-image-2",
+      "aspect_ratio": "1:1",
+      "difficulty": "intermediate",
+      "style_keywords": [
+        "food photography",
+        "splash mid-air",
+        "FMCG"
+      ],
+      "is_template": true,
+      "template_variables": [
+        "brand",
+        "headline"
+      ],
+      "requires_reference_image": false,
+      "preview_image_url": "images/18-cereal.jpg",
+      "source_site": "meigen.ai",
+      "featured": false,
+      "trending_score": 75,
+      "likes": 540,
+      "views": 8800,
+      "copies": 1310,
+      "language": "en"
+    },
+    {
+      "id": "high-contrast-bw-portrait",
+      "title": "High-Contrast B&W Studio Portrait",
+      "description": "85mm cinematic black-and-white portrait with deep shadow falloff and razor-sharp skin detail.",
+      "prompt": "High-contrast black and white portrait shot on an 85mm prime lens with shallow depth of field, dramatic cinematic key light from upper left, deep dark out-of-focus area on the right of frame, highly detailed skin texture and individual hair strands, subtle catchlights in the eyes, charcoal-gray seamless backdrop, subject wearing a black turtleneck. Mood: pensive, classic editorial. 4:5 portrait crop, no text or watermark.",
+      "category": "portraits-photography",
+      "tags": [
+        "b&w",
+        "portrait",
+        "85mm",
+        "studio"
+      ],
+      "model": "gpt-image-2",
+      "aspect_ratio": "4:5",
+      "difficulty": "beginner",
+      "style_keywords": [
+        "high contrast",
+        "85mm",
+        "editorial"
+      ],
+      "is_template": false,
+      "requires_reference_image": false,
+      "preview_image_url": "images/19-bw-portrait.jpg",
+      "source_site": "topai.ink",
+      "featured": false,
+      "trending_score": 74,
+      "likes": 522,
+      "views": 8410,
+      "copies": 1245,
+      "language": "en"
+    },
+    {
+      "id": "consistent-2x2-grid-poses",
+      "title": "Consistent Character 2×2 Grid",
+      "description": "Identity-locked 2×2 grid showing the same character in four poses for storyboarding and merch.",
+      "prompt": "Create a 2×2 grid (2 rows × 2 columns) of four vertical full-body images of the SAME subject. Maintain identical face, hair, body proportions, outfit and lighting across all four panels. Vary only the pose: (1) standing relaxed front view, (2) hands-in-pockets three-quarter, (3) walking side profile, (4) leaning casually back-against-wall. Soft neutral studio backdrop, consistent shadow direction, photoreal. Use thin white gutters between panels. 1:1 final canvas.",
+      "category": "social-media",
+      "tags": [
+        "grid",
+        "consistency",
+        "character",
+        "reference"
+      ],
+      "model": "gpt-image-2",
+      "aspect_ratio": "1:1",
+      "difficulty": "advanced",
+      "style_keywords": [
+        "identity consistency",
+        "grid layout"
+      ],
+      "is_template": false,
+      "requires_reference_image": true,
+      "preview_image_url": "images/20-2x2-grid.jpg",
+      "source_site": "topai.ink",
+      "featured": true,
+      "trending_score": 93,
+      "likes": 1198,
+      "views": 18420,
+      "copies": 3210,
+      "language": "en"
+    },
+    {
+      "id": "miniature-diorama-skincare-ad",
+      "title": "Miniature Diorama Skincare Ad",
+      "description": "Tilt-shift hyper-real ad with construction-worker figurines scaling a giant skincare bottle.",
+      "prompt": "Hyper-realistic miniature diorama product advertisement. Hero: an oversized luxury skincare pump bottle labeled 'LUXEVEIL Skin Science — Radiance Nourishing Body Lotion'. Tiny construction-worker figurines climb scaffolding around the bottle, polishing the glass and pumping cream onto a giant cotton pad. Tilt-shift focus, soft daylight, pale pink seamless background, exaggerated scale contrast, photoreal CGI craftsmanship. Add a small product hero shot bottom-right with serif-modern brand wordmark. 4:5 vertical.",
+      "category": "product-photography",
+      "tags": [
+        "miniature",
+        "tilt-shift",
+        "ad",
+        "skincare"
+      ],
+      "model": "gpt-image-2",
+      "aspect_ratio": "4:5",
+      "difficulty": "expert",
+      "style_keywords": [
+        "tilt-shift",
+        "miniature people",
+        "scale ad"
+      ],
+      "is_template": true,
+      "template_variables": [
+        "brand",
+        "product_name"
+      ],
+      "requires_reference_image": false,
+      "preview_image_url": "images/21-diorama-skincare.jpg",
+      "source_site": "github-evolinkai",
+      "featured": true,
+      "trending_score": 94,
+      "likes": 1320,
+      "views": 19840,
+      "copies": 3340,
+      "language": "en"
+    },
+    {
+      "id": "3d-liquid-art-poster",
+      "title": "3D Liquid Art Poster",
+      "description": "Vertical poster with giant glossy liquid blobs in saturated neon palette.",
+      "prompt": "Mesmerizing vertical poster featuring giant 3D liquid fluid sculpture forms — enormous glossy morphing blob shapes intertwined in mid-air, ultra-glossy chrome and translucent wax-like surfaces with subsurface scattering, splashes and droplets frozen at peak motion. Saturated neon palette: hot magenta, cyan, lime, with a soft black studio backdrop and rim lighting. No text. Ultra-high-resolution CGI render, 3:4 vertical.",
+      "category": "illustration-3d",
+      "tags": [
+        "3d",
+        "liquid",
+        "abstract",
+        "poster"
+      ],
+      "model": "gpt-image-2",
+      "aspect_ratio": "2:3",
+      "difficulty": "advanced",
+      "style_keywords": [
+        "3d liquid",
+        "subsurface scattering",
+        "neon"
+      ],
+      "is_template": false,
+      "requires_reference_image": false,
+      "preview_image_url": "images/22-liquid.jpg",
+      "source_site": "github-evolinkai",
+      "featured": false,
+      "trending_score": 80,
+      "likes": 666,
+      "views": 10880,
+      "copies": 1620,
+      "language": "en"
+    },
+    {
+      "id": "3d-typography-travel-poster",
+      "title": "3D Typography Travel Poster",
+      "description": "Each letter of a destination name is sculpted from that city's iconic landmarks.",
+      "prompt": "Create a 3:2 premium 3D typography-based travel poster for [CITY]. Each letter of the destination name is built from realistic sculptural architecture and textures specific to that city — landmarks, vegetation, transit, materials. Cinematic hour lighting, soft shadows on a creamy paper background, small editorial lockup at the bottom: 'VISIT [CITY] · SINCE [YEAR]'. Hybrid of CGI sculpture and luxury travel ad. No watermark.",
+      "category": "travel-poster",
+      "tags": [
+        "travel",
+        "3d",
+        "typography",
+        "luxury"
+      ],
+      "model": "gpt-image-2",
+      "aspect_ratio": "3:2",
+      "difficulty": "advanced",
+      "style_keywords": [
+        "3d type",
+        "architectural letterforms"
+      ],
+      "is_template": true,
+      "template_variables": [
+        "CITY",
+        "YEAR"
+      ],
+      "requires_reference_image": false,
+      "preview_image_url": "images/23-3d-typography.jpg",
+      "source_site": "github-evolinkai",
+      "featured": true,
+      "trending_score": 91,
+      "likes": 1078,
+      "views": 16790,
+      "copies": 2740,
+      "language": "en"
+    },
+    {
+      "id": "ink-etched-family-portrait",
+      "title": "Ink-Etched Family Portrait",
+      "description": "Hand-drawn pen-and-ink crosshatching family portrait on textured paper.",
+      "prompt": "A black-and-white hand-drawn family portrait in the style of detailed pen-and-ink crosshatching on textured warm-white paper, showing 4 people in a formal compositional arrangement (two parents seated, two children standing behind). Etching aesthetic, fine line detail, subtle stippling for shadows, slight paper grain and ink bleed. Small engraved-style nameplate at the bottom: 'THE FAMILY · EST. [YEAR]'. 4:5 vertical.",
+      "category": "illustration-3d",
+      "tags": [
+        "ink",
+        "etching",
+        "portrait",
+        "monochrome"
+      ],
+      "model": "gpt-image-2",
+      "aspect_ratio": "4:5",
+      "difficulty": "intermediate",
+      "style_keywords": [
+        "pen-and-ink",
+        "crosshatching",
+        "etching"
+      ],
+      "is_template": true,
+      "template_variables": [
+        "family_name",
+        "year"
+      ],
+      "requires_reference_image": true,
+      "preview_image_url": "images/24-ink-family.jpg",
+      "source_site": "github-evolinkai",
+      "featured": false,
+      "trending_score": 78,
+      "likes": 612,
+      "views": 9920,
+      "copies": 1480,
+      "language": "en"
+    },
+    {
+      "id": "chibi-3d-mini-me",
+      "title": "Chibi 3D Mini Me Photo Effect",
+      "description": "Multiple tiny chibi 3D versions of the same person interact across the original photo.",
+      "prompt": "Take the uploaded photo. Composite multiple miniature 'chibi 3D' versions of the same person around the scene: sitting on the shoulder, climbing the arm, playing with a coffee cup, peeking from a pocket. Each mini-me has the same face likeness, hairstyle and outfit as the original subject but rendered in toy-like rounded 3D. Soft volumetric lighting, slight contact shadows, magical realism. Keep the original photo untouched as the background. 1:1 square.",
+      "category": "illustration-3d",
+      "tags": [
+        "chibi",
+        "3d",
+        "photo",
+        "playful"
+      ],
+      "model": "gpt-image-2",
+      "aspect_ratio": "1:1",
+      "difficulty": "intermediate",
+      "style_keywords": [
+        "chibi",
+        "miniature versions",
+        "photo composite"
+      ],
+      "is_template": false,
+      "requires_reference_image": true,
+      "preview_image_url": "images/25-chibi-3d.jpg",
+      "source_site": "github-evolinkai",
+      "featured": true,
+      "trending_score": 96,
+      "likes": 1410,
+      "views": 21240,
+      "copies": 3580,
+      "language": "en"
+    },
+    {
+      "id": "luxury-chocolate-campaign",
+      "title": "Noirvelle Chocolat Luxury Campaign",
+      "description": "Square premium chocolate ad with gold-foil typography and editorial product photography.",
+      "prompt": "Create a premium square (1:1) product advertisement for a fictional luxury chocolate brand 'Noirvelle Chocolat'. Hero composition: a row of three chocolate bars with sculpted facets, fragments breaking off mid-air, cocoa nibs and gold leaf scattered on a dark slate surface. Lighting: low-key directional with warm rim. Typography: tall serif wordmark 'NOIRVELLE' in gold foil at top, subtitle 'CHOCOLAT · CRAFTED IN PARIS' below, small percentage badges (70%, 80%, 90%) under each bar. Editorial luxury food photography. Premium dark mood.",
+      "category": "product-photography",
+      "tags": [
+        "chocolate",
+        "luxury",
+        "ad",
+        "editorial"
+      ],
+      "model": "gpt-image-2",
+      "aspect_ratio": "1:1",
+      "difficulty": "advanced",
+      "style_keywords": [
+        "luxury food",
+        "gold foil",
+        "low-key lighting"
+      ],
+      "is_template": true,
+      "template_variables": [
+        "brand",
+        "city"
+      ],
+      "requires_reference_image": false,
+      "preview_image_url": "images/26-chocolate.jpg",
+      "source_site": "github-evolinkai",
+      "featured": false,
+      "trending_score": 83,
+      "likes": 738,
+      "views": 11860,
+      "copies": 1850,
+      "language": "en"
+    },
+    {
+      "id": "istanbul-line-art-poster",
+      "title": "Istanbul Line-Art Travel Poster",
+      "description": "Minimalist line-art travel poster portraying Istanbul as a stylish urban scene.",
+      "prompt": "Create a minimalist ultra-high-resolution travel poster in line-art style for ISTANBUL. Portray the city as a stylish everyday urban scene: silhouettes of minarets and the Bosphorus on the horizon, a tram, a tea seller, pedestrians with umbrellas, and a single seagull, all rendered in clean architectural pen lines on warm cream paper. Hand-lettered title 'ISTANBUL' top, subtitle 'BETWEEN TWO SEAS' below. Negative space dominant. 9:16 vertical poster.",
+      "category": "travel-poster",
+      "tags": [
+        "travel",
+        "line art",
+        "minimalist",
+        "istanbul"
+      ],
+      "model": "gpt-image-2",
+      "aspect_ratio": "9:16",
+      "difficulty": "intermediate",
+      "style_keywords": [
+        "line art",
+        "architectural",
+        "negative space"
+      ],
+      "is_template": true,
+      "template_variables": [
+        "destination",
+        "subtitle"
+      ],
+      "requires_reference_image": false,
+      "preview_image_url": "images/27-istanbul.jpg",
+      "source_site": "github-evolinkai",
+      "featured": false,
+      "trending_score": 80,
+      "likes": 658,
+      "views": 10670,
+      "copies": 1610,
+      "language": "en"
+    },
+    {
+      "id": "vr-headset-exploded-view",
+      "title": "VR Headset Exploded-View Infographic",
+      "description": "9-layer exploded-view tech diagram with labeled callouts and gradient studio lighting.",
+      "prompt": "Clean high-tech 3D render exploded-view product diagram poster of a VR headset (Meta Quest 3 style). Studio lighting, glowing accents, soft purple and blue gradient background. Show a 9-layer internal component stack — outer shell, sensors array, lenses, display panels, mainboard, battery, foam, strap, controllers — separated vertically with thin guide lines. Labeled callouts on left and right sides with technical specs. Bilingual labels: large English component names, smaller Japanese subtitles. 4:5 vertical infographic.",
+      "category": "infographic-educational",
+      "tags": [
+        "3d",
+        "exploded view",
+        "tech",
+        "infographic"
+      ],
+      "model": "gpt-image-2",
+      "aspect_ratio": "4:5",
+      "difficulty": "expert",
+      "style_keywords": [
+        "exploded view",
+        "technical diagram",
+        "studio render"
+      ],
+      "is_template": true,
+      "template_variables": [
+        "device",
+        "components"
+      ],
+      "requires_reference_image": false,
+      "preview_image_url": "images/28-vr-exploded.jpg",
+      "source_site": "youmind.com",
+      "featured": true,
+      "trending_score": 92,
+      "likes": 1208,
+      "views": 17620,
+      "copies": 2870,
+      "language": "en"
+    },
+    {
+      "id": "anime-martial-arts-battle",
+      "title": "Anime Martial Arts Battle",
+      "description": "Dynamic anime cel illustration of a high-impact dojo duel with speed lines and chromatic light.",
+      "prompt": "Anime-style illustration of a high-impact martial arts battle between two young female fighters in a traditional wooden dojo. Dynamic action poses captured mid-strike, speed lines radiating outward, splintered wooden floor, dust and cherry blossoms swirling, dramatic backlight through shoji screens. Cel-shaded line work with bold linework, vibrant rim lights in pink and cyan. 16:9 cinematic anime key visual.",
+      "category": "illustration-3d",
+      "tags": [
+        "anime",
+        "action",
+        "key visual",
+        "cel shaded"
+      ],
+      "model": "gpt-image-2",
+      "aspect_ratio": "16:9",
+      "difficulty": "advanced",
+      "style_keywords": [
+        "cel shading",
+        "speed lines",
+        "key visual"
+      ],
+      "is_template": false,
+      "requires_reference_image": false,
+      "preview_image_url": "images/29-anime-battle.jpg",
+      "source_site": "youmind.com",
+      "featured": false,
+      "trending_score": 86,
+      "likes": 882,
+      "views": 13420,
+      "copies": 2080,
+      "language": "en"
+    },
+    {
+      "id": "watercolor-city-food-map",
+      "title": "Illustrated City Food Map",
+      "description": "Hand-drawn watercolor and ink food map of a city on aged parchment paper.",
+      "prompt": "Hand-drawn watercolor and ink food map illustration on vintage parchment paper. Bird's-eye view of a city's food district with stylized streets and landmarks, dotted with illustrated food icons (ramen bowl, dumplings, croissants, espresso, sushi, tacos) at their respective restaurants, hand-lettered restaurant names beside each icon, decorative compass rose and inset legend. Soft watercolor washes, sepia ink lines, slightly aged paper texture. 3:4 vertical poster, no photographic elements.",
+      "category": "illustration-3d",
+      "tags": [
+        "map",
+        "watercolor",
+        "food",
+        "illustration"
+      ],
+      "model": "gpt-image-2",
+      "aspect_ratio": "3:4",
+      "difficulty": "intermediate",
+      "style_keywords": [
+        "watercolor",
+        "hand-drawn map",
+        "vintage"
+      ],
+      "is_template": true,
+      "template_variables": [
+        "city"
+      ],
+      "requires_reference_image": false,
+      "preview_image_url": "images/30-food-map.jpg",
+      "source_site": "youmind.com",
+      "featured": false,
+      "trending_score": 79,
+      "likes": 624,
+      "views": 9980,
+      "copies": 1530,
+      "language": "en"
+    },
+    {
+      "id": "iphone-app-store-mockup",
+      "title": "iPhone App Store Lifestyle Mockup",
+      "description": "Realistic warm wooden-desk iPhone mockup for App Store screenshots and product launches.",
+      "prompt": "Realistic lifestyle mockup of a black iPhone resting on a warm wooden desk in golden afternoon sunlight. The screen displays a clean app UI mockup (replace with your design) with a status bar, hero card, and action buttons. Soft shadow under the device, blurred objects in the background (notebook, coffee cup, plant) for context. Shot from a 30° overhead angle, 4:5 vertical, photoreal commercial product photography quality.",
+      "category": "ui-app-mockup",
+      "tags": [
+        "mockup",
+        "iphone",
+        "ui",
+        "lifestyle"
+      ],
+      "model": "gpt-image-2",
+      "aspect_ratio": "4:5",
+      "difficulty": "beginner",
+      "style_keywords": [
+        "device mockup",
+        "golden hour",
+        "commercial"
+      ],
+      "is_template": true,
+      "template_variables": [
+        "app_ui_description"
+      ],
+      "requires_reference_image": true,
+      "preview_image_url": "images/31-iphone-mockup.jpg",
+      "source_site": "youmind.com",
+      "featured": false,
+      "trending_score": 81,
+      "likes": 706,
+      "views": 11120,
+      "copies": 1730,
+      "language": "en"
+    },
+    {
+      "id": "fashion-collage-9panel",
+      "title": "Multi-Panel Fashion Collage",
+      "description": "Vertical 9:16 five-panel fashion collage with neon-themed pose, hair and outfit variations.",
+      "prompt": "Vertical 9:16 five-panel fashion editorial collage of the same model. Each panel features a different outfit, hairstyle, accessory and pose, all unified by a neon palette (electric blue, magenta, lime). Thin white gutters between panels. Background: textured concrete with chromatic lighting gels. Full-body framing, dynamic editorial energy, magazine-cover aesthetic, glossy finish.",
+      "category": "social-media",
+      "tags": [
+        "collage",
+        "fashion",
+        "9:16",
+        "neon"
+      ],
+      "model": "gpt-image-2",
+      "aspect_ratio": "9:16",
+      "difficulty": "advanced",
+      "style_keywords": [
+        "multi-panel",
+        "neon palette",
+        "editorial"
+      ],
+      "is_template": false,
+      "requires_reference_image": true,
+      "preview_image_url": "images/32-fashion-collage.jpg",
+      "source_site": "youmind.com",
+      "featured": false,
+      "trending_score": 80,
+      "likes": 658,
+      "views": 10440,
+      "copies": 1610,
+      "language": "en"
+    },
+    {
+      "id": "stone-staircase-evolution-infographic",
+      "title": "Stone-Staircase Evolution Infographic",
+      "description": "3D realistic infographic with a stone-stepped evolutionary timeline of organisms.",
+      "prompt": "Realistic 3D infographic showing a stone-stepped evolutionary timeline. Each step is a chiselled stone block ascending diagonally across the frame, and on each block stands a different organism — single cell, fish, amphibian, reptile, early mammal, primate, modern human. Cinematic side lighting, dust motes in air, mossy textures, subtle scientific labels in serif type beside each step (era name, million-years-ago value). Soft warm sunset background. 16:9 widescreen poster.",
+      "category": "infographic-educational",
+      "tags": [
+        "infographic",
+        "evolution",
+        "3d",
+        "education"
+      ],
+      "model": "gpt-image-2",
+      "aspect_ratio": "16:9",
+      "difficulty": "expert",
+      "style_keywords": [
+        "3d infographic",
+        "timeline",
+        "scientific"
+      ],
+      "is_template": true,
+      "template_variables": [
+        "topic",
+        "steps"
+      ],
+      "requires_reference_image": false,
+      "preview_image_url": "images/33-evolution.jpg",
+      "source_site": "youmind.com",
+      "featured": true,
+      "trending_score": 87,
+      "likes": 922,
+      "views": 14260,
+      "copies": 2200,
+      "language": "en"
+    },
+    {
+      "id": "youtube-thumbnail-mrbeast",
+      "title": "Viral YouTube Thumbnail",
+      "description": "High-CTR MrBeast-style thumbnail with shocked face, big block text, and arrow callouts.",
+      "prompt": "Viral YouTube thumbnail in MrBeast / high-CTR style. Composition: a shocked face on the left looking off-frame, oversized 3D chunky block text on the right reading '$1,000,000 IN 24H', red arrow pointing at a mysterious silver briefcase, bright saturated colors (yellow, red, electric blue), thick black outline on every element, soft drop shadows, slight tilt for energy. 16:9, 1280×720 thumbnail layout, no watermark.",
+      "category": "social-media",
+      "tags": [
+        "youtube",
+        "thumbnail",
+        "viral",
+        "ctr"
+      ],
+      "model": "gpt-image-2",
+      "aspect_ratio": "16:9",
+      "difficulty": "beginner",
+      "style_keywords": [
+        "thumbnail design",
+        "block text",
+        "shocked face"
+      ],
+      "is_template": true,
+      "template_variables": [
+        "headline",
+        "subject"
+      ],
+      "requires_reference_image": false,
+      "preview_image_url": "images/34-yt-thumbnail.jpg",
+      "source_site": "youmind.com",
+      "featured": false,
+      "trending_score": 84,
+      "likes": 812,
+      "views": 12640,
+      "copies": 1990,
+      "language": "en"
+    },
+    {
+      "id": "linkedin-pro-headshot",
+      "title": "Studio LinkedIn Pro Headshot",
+      "description": "Polished business headshot with soft beauty dish lighting and neutral backdrop.",
+      "prompt": "Professional LinkedIn headshot, soft beauty-dish key light from camera-right, subtle hair light, light grey gradient backdrop, tight chest-up framing, subject in a charcoal blazer over a white shirt, calm confident expression, sharp focus on the eyes, retouched but natural skin, slight contrast lift. 4:5 portrait, no text or watermark.",
+      "category": "portraits-photography",
+      "tags": [
+        "headshot",
+        "linkedin",
+        "business",
+        "studio"
+      ],
+      "model": "gpt-image-2",
+      "aspect_ratio": "4:5",
+      "difficulty": "beginner",
+      "style_keywords": [
+        "business headshot",
+        "beauty dish",
+        "studio"
+      ],
+      "is_template": false,
+      "requires_reference_image": true,
+      "preview_image_url": "images/35-linkedin.jpg",
+      "source_site": "topai.ink",
+      "featured": false,
+      "trending_score": 73,
+      "likes": 488,
+      "views": 7980,
+      "copies": 1190,
+      "language": "en"
+    },
+    {
+      "id": "chinese-ecommerce-template",
+      "title": "Chinese E-commerce Detail Template",
+      "description": "Structured Chinese e-commerce product-poster template with role/ratio/product/background slots.",
+      "prompt": "用途：电商主图。比例：3:4 竖图。产品：{产品名}，关键材质：{材质}。角色：{使用人群} 自然手持产品。背景：纯净 {主色} 背景，柔和阴影，无杂物。光线：柔光箱顶光 + 侧补光。文字：右上角中文标题 {主标题} + 小字 {卖点 1 / 卖点 2}，无水印。整体氛围：高级感、商业摄影质感、4K 锐利、无 AI 痕迹。",
+      "category": "product-photography",
+      "tags": [
+        "ecommerce",
+        "chinese",
+        "template",
+        "taobao"
+      ],
+      "model": "gpt-image-2",
+      "aspect_ratio": "3:4",
+      "difficulty": "intermediate",
+      "style_keywords": [
+        "ecommerce",
+        "soft box lighting",
+        "commercial"
+      ],
+      "is_template": true,
+      "template_variables": [
+        "产品名",
+        "材质",
+        "使用人群",
+        "主色",
+        "主标题",
+        "卖点 1",
+        "卖点 2"
+      ],
+      "requires_reference_image": false,
+      "preview_image_url": "images/36-ecommerce.jpg",
+      "source_site": "topai.ink",
+      "featured": true,
+      "trending_score": 88,
+      "likes": 1010,
+      "views": 15820,
+      "copies": 2540,
+      "language": "zh"
+    }
+  ]
+}

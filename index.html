@@ -1,0 +1,399 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>GPT Image 2 Prompts · Curated Gallery</title>
+  <meta name="description" content="A curated gallery of copy-and-paste prompts for GPT Image 2 (img2). Filter by category, difficulty and aspect ratio. Open any prompt directly in a Happycapy chat." />
+  <link rel="stylesheet" href="fonts/fonts.css" />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <!-- Left rail (Happycapy app shell) -->
+  <aside class="rail" aria-label="App rail">
+    <button class="rail__btn rail__btn--active" aria-label="Sidebar">
+      <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M9 4v16"/></svg>
+    </button>
+    <button class="rail__btn" aria-label="New">
+      <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 8v8M8 12h8"/></svg>
+    </button>
+    <button class="rail__btn" aria-label="Skills">
+      <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M14 7h3a3 3 0 0 1 0 6h-1v4a3 3 0 0 1-6 0v-1H6a3 3 0 0 1 0-6h1V7a3 3 0 1 1 6 0z"/></svg>
+    </button>
+    <button class="rail__btn" aria-label="History">
+      <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>
+    </button>
+    <span class="rail__sep"></span>
+    <span class="rail__avatar" title="You">TI</span>
+  </aside>
+
+  <!-- Top Nav -->
+  <header class="nav">
+    <div class="nav__inner">
+      <a class="logo" href="#" aria-label="Happycapy">
+        <img class="logo__lockup" src="assets/happycapy-lockup.png" alt="happycapy" />
+        <span class="logo__divider" aria-hidden="true">/</span>
+        <span class="logo__text">img2</span>
+      </a>
+      <nav class="nav__links">
+        <a href="#gallery">Gallery</a>
+        <a href="#categories">Categories</a>
+        <a href="#how">How it works</a>
+        <a href="#faq">FAQ</a>
+      </nav>
+      <div class="nav__cta">
+        <button class="btn btn--ghost" id="themeToggle" aria-label="Toggle theme">
+          <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"/></svg>
+        </button>
+        <button class="btn btn--primary" id="openChatBtn">
+          <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+          Open Capy chat
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero">
+    <span class="hero__dots" aria-hidden="true"></span>
+    <div class="hero__inner">
+      <div class="hero__capy" aria-hidden="true">
+        <img src="assets/happycapy-icon.png" alt="" />
+      </div>
+      <span class="pill">
+        <span class="pill__dot"></span>
+        Updated <span id="heroDate">May 16, 2026</span> · 36 hand-picked prompts
+      </span>
+      <h1 class="hero__title">
+        Run any <em>GPT&nbsp;Image&nbsp;2</em> idea<br />in a single click.
+      </h1>
+      <p class="hero__sub">
+        A copy-paste-ready gallery of the best <code>img2</code> prompts — curated by Happycapy from YouMind, TopAI, EvoLink, MeiGen and the awesome-gpt-image-2-prompts repo, then re-tested and tagged. Pick a card to open it in a Capy chat and generate.
+      </p>
+      <div class="hero__search">
+        <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.3-4.3"/></svg>
+        <input id="search" type="text" placeholder="Search 'cinematic poster', 'character sheet', 'fujifilm' …" />
+        <kbd>/</kbd>
+      </div>
+      <div class="hero__quicks" aria-label="Quick searches">
+        <button class="quick" data-q="poster">Poster</button>
+        <button class="quick" data-q="cinematic">Cinematic still</button>
+        <button class="quick" data-q="character sheet">Character sheet</button>
+        <button class="quick" data-q="fujifilm">Fujifilm portrait</button>
+        <button class="quick" data-q="travel">Travel poster</button>
+        <button class="quick" data-q="3d">3D illustration</button>
+      </div>
+      <div class="hero__previews" id="heroPreviews" aria-hidden="true"></div>
+      <div class="hero__stats">
+        <div><strong id="statTotal">36</strong><span>prompts</span></div>
+        <div><strong>13</strong><span>categories</span></div>
+        <div><strong>4</strong><span>difficulty tiers</span></div>
+        <div><strong>5+</strong><span>sources cross-checked</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Why img2 shines -->
+  <section class="why" id="why">
+    <div class="why__inner">
+      <header class="why__head">
+        <span class="eyebrow">why <em>img2</em></span>
+        <h2>What GPT&nbsp;Image&nbsp;2 is <em>actually</em> good at</h2>
+        <p>Each prompt in the gallery leans into one of these. Filter by capability if you're hunting a specific superpower.</p>
+      </header>
+      <div class="why__grid">
+        <article class="why__card">
+          <span class="why__icon">
+            <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M4 7V5h16v2"/><path d="M9 5v14M15 5v14M7 19h10"/></svg>
+          </span>
+          <h3>Razor-sharp text</h3>
+          <p>Real legible typography baked directly into the image — posters, packaging, captions and UI copy.</p>
+        </article>
+        <article class="why__card">
+          <span class="why__icon">
+            <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="9" r="3"/><circle cx="17" cy="9" r="3"/><path d="M3 20c.8-3 3-5 6-5s5.2 2 6 5M14 20c.8-3 3-5 6-5"/></svg>
+          </span>
+          <h3>Character consistency</h3>
+          <p>Hold the same person, mascot or pet across angles, outfits and scenes — perfect for sheets and stories.</p>
+        </article>
+        <article class="why__card">
+          <span class="why__icon">
+            <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="13" rx="2"/><path d="M3 10l6 4 6-4 6 4M7 21h10"/></svg>
+          </span>
+          <h3>Reference-driven edits</h3>
+          <p>Drop one or more references and ask for "same vibe but…" — lighting, palette and composition transfer cleanly.</p>
+        </article>
+        <article class="why__card">
+          <span class="why__icon">
+            <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="6" width="9" height="12" rx="1.5"/><rect x="13" y="6" width="9" height="12" rx="1.5"/><rect x="5" y="3" width="14" height="18" rx="2" stroke-opacity=".0"/></svg>
+          </span>
+          <h3>Native multi-aspect</h3>
+          <p>1:1, 4:5, 16:9, 9:16, 3:2 — pick the ratio up front and the model composes for the canvas, not crops to it.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Filters -->
+  <section class="filters" id="categories">
+    <div class="filters__inner">
+      <div class="chips" id="categoryChips" role="tablist" aria-label="Categories"></div>
+      <div class="filters__row">
+        <div class="chips chips--small" id="difficultyChips" role="tablist" aria-label="Difficulty"></div>
+        <div class="filters__sort">
+          <label for="sort">Sort</label>
+          <select id="sort">
+            <option value="featured">Featured</option>
+            <option value="trending">Trending</option>
+            <option value="newest">Newest</option>
+            <option value="random">Surprise me</option>
+            <option value="copies">Most copied</option>
+          </select>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Featured today -->
+  <section class="featured" id="featured">
+    <div class="featured__inner">
+      <header class="featured__head">
+        <div>
+          <span class="eyebrow">featured today</span>
+          <h2>Capy's pick of the week</h2>
+        </div>
+        <a href="#gallery" class="featured__more">See all 36 →</a>
+      </header>
+      <div class="featured__row" id="featuredRow"></div>
+    </div>
+  </section>
+
+  <!-- Gallery -->
+  <main class="gallery" id="gallery">
+    <header class="gallery__head">
+      <div>
+        <span class="eyebrow">all prompts</span>
+        <h2 class="gallery__title">The full library</h2>
+      </div>
+      <p class="gallery__hint" id="resultHint">Showing 36 prompts across 13 categories.</p>
+    </header>
+    <div class="gallery__grid" id="grid"></div>
+    <div class="gallery__empty" id="empty" hidden>
+      <h3>No prompts match those filters.</h3>
+      <p>Try clearing the search or pick a different category.</p>
+      <button class="btn btn--ghost btn--sm" id="clearFilters">Clear filters</button>
+    </div>
+  </main>
+
+  <!-- How it works -->
+  <section class="how" id="how">
+    <div class="how__inner">
+      <header class="how__head">
+        <span class="eyebrow">how to use it</span>
+        <h2>Three ways to use this gallery</h2>
+      </header>
+      <div class="how__grid">
+        <article class="how__card">
+          <span class="step">01</span>
+          <h3>Click → Copy</h3>
+          <p>Hit the <em>Copy</em> button on any card. The full prompt lands in your clipboard, ready for ChatGPT, the OpenAI Images API, or your own pipeline.</p>
+          <span class="how__arrow" aria-hidden="true">→</span>
+        </article>
+        <article class="how__card">
+          <span class="step">02</span>
+          <h3>Click → Capy</h3>
+          <p>Hit <em>Try in Capy</em> to open a Happycapy chat with the prompt pre-loaded. Generate, iterate, and tweak — without ever leaving the page.</p>
+          <span class="how__arrow" aria-hidden="true">→</span>
+        </article>
+        <article class="how__card">
+          <span class="step">03</span>
+          <h3>Remix templates</h3>
+          <p>Prompts marked with <span class="badge badge--tpl">Template</span> have <code>{ }</code> variables. Replace them inline in the prompt drawer before sending.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Capy tips -->
+  <section class="tips" id="tips">
+    <div class="tips__inner">
+      <header class="tips__head">
+        <img class="tips__capy" src="assets/happycapy-icon.png" alt="" />
+        <div>
+          <span class="eyebrow">capy whispers</span>
+          <h2>Six prompt-engineering tips that move the needle</h2>
+        </div>
+      </header>
+      <div class="tips__grid">
+        <article class="tip">
+          <span class="tip__num">01</span>
+          <h4>Front-load the camera</h4>
+          <p>Open with the <em>shot type, lens and lighting</em>. img2 anchors composition first, subject second.</p>
+        </article>
+        <article class="tip">
+          <span class="tip__num">02</span>
+          <h4>Quote the text you want</h4>
+          <p>Wrap any in-image copy in <code>"…"</code>. Quotes prevent the model from rephrasing it.</p>
+        </article>
+        <article class="tip">
+          <span class="tip__num">03</span>
+          <h4>Pick the ratio first</h4>
+          <p>Specify <code>16:9</code> / <code>4:5</code> / <code>9:16</code> at the top of the prompt — composition follows.</p>
+        </article>
+        <article class="tip">
+          <span class="tip__num">04</span>
+          <h4>Reference > adjective</h4>
+          <p>"In the style of Wes Anderson" is fine. Attaching a frame is better. img2 reads references like a moodboard.</p>
+        </article>
+        <article class="tip">
+          <span class="tip__num">05</span>
+          <h4>Lock the seed for variations</h4>
+          <p>Re-use the same seed and only swap one variable (outfit, lighting) to build true series.</p>
+        </article>
+        <article class="tip">
+          <span class="tip__num">06</span>
+          <h4>End with negatives, sparingly</h4>
+          <p>One short "Avoid: …" line beats five. Long negative blocks dilute the positive prompt.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="faq" id="faq">
+    <div class="faq__inner">
+      <h2>FAQ</h2>
+      <details>
+        <summary>What is GPT Image 2?</summary>
+        <p>GPT Image 2 (often shortened to <strong>img2</strong>) is OpenAI's latest image-generation model. It accepts long, structured prompts, multiple aspect ratios, and reference images, and produces sharper text rendering and stronger compositional control than previous generations.</p>
+      </details>
+      <details>
+        <summary>Where do these prompts come from?</summary>
+        <p>The dataset is cross-referenced from <a href="https://www.youmind.com/gpt-image-2-prompts" rel="noopener">youmind.com</a>, <a href="https://topai.ink/zh" rel="noopener">topai.ink</a>, <a href="https://evolink.ai/gpt-image-2-prompts" rel="noopener">evolink.ai</a>, <a href="https://meigen.ai" rel="noopener">meigen.ai</a> and the open-source <a href="https://github.com/EvoLinkAI/awesome-gpt-image-2-prompts" rel="noopener">awesome-gpt-image-2-prompts</a> repo. We re-tag, normalize and add metadata.</p>
+      </details>
+      <details>
+        <summary>Can I use the prompts commercially?</summary>
+        <p>Prompt text is generally not copyrightable. The output you generate, however, is governed by your image-model provider's terms (OpenAI, Google, Byteplus, etc.). Check those before commercial use.</p>
+      </details>
+      <details>
+        <summary>How do I add my own prompt?</summary>
+        <p>The dataset is just <code>data/prompts.json</code>. Open a PR or drop a new entry — the gallery renders straight from JSON, so anything you add appears immediately.</p>
+      </details>
+      <details>
+        <summary>What is the Capy chat panel?</summary>
+        <p>Happycapy is the AI agent that powers this page. The right-side drawer opens a live Capy chat with your selected prompt pre-loaded, so you can generate, iterate or ask Capy to rewrite the prompt for a different style.</p>
+      </details>
+    </div>
+  </section>
+
+  <!-- CTA strip -->
+  <section class="cta">
+    <div class="cta__inner">
+      <img class="cta__capy" src="assets/happycapy-icon.png" alt="" aria-hidden="true" />
+      <div class="cta__text">
+        <h2>Got a prompt that should be here?</h2>
+        <p>Drop it in a Capy chat and we'll re-test, tag and add it to the next batch.</p>
+      </div>
+      <div class="cta__actions">
+        <button class="btn btn--primary" id="openChatBtn2">
+          <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+          Send to Capy
+        </button>
+        <a class="btn btn--ghost" href="https://github.com/EvoLinkAI/awesome-gpt-image-2-prompts" rel="noopener">
+          <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.4 3.4 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
+          Open PR
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="foot">
+    <div class="foot__inner">
+      <div class="foot__col foot__brand">
+        <img class="foot__lockup" src="assets/happycapy-lockup.png" alt="happycapy" />
+        <p>A copy-paste gallery of GPT&nbsp;Image&nbsp;2 prompts, curated by the Happycapy team. One static page, one cream theme — fork it.</p>
+        <div class="foot__social">
+          <a class="iconbtn" href="https://github.com/EvoLinkAI/awesome-gpt-image-2-prompts" rel="noopener" aria-label="GitHub">
+            <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.4 3.4 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
+          </a>
+          <a class="iconbtn" href="https://x.com/" rel="noopener" aria-label="X">
+            <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor"><path d="M18.244 2H21l-6.55 7.5L22 22h-6.83l-4.74-6.32L4.8 22H2l7.05-8.05L2 2h6.91l4.32 5.83L18.244 2zm-2.39 18.5h1.86L7.86 3.42H5.86l9.994 17.08z"/></svg>
+          </a>
+          <a class="iconbtn" href="https://www.happycapy.ai/" rel="noopener" aria-label="Happycapy">
+            <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+          </a>
+        </div>
+      </div>
+      <div class="foot__col">
+        <h5>Browse</h5>
+        <a href="#gallery">Full gallery</a>
+        <a href="#categories">Categories</a>
+        <a href="#featured">Featured today</a>
+        <a href="#tips">Capy tips</a>
+        <a href="#faq">FAQ</a>
+      </div>
+      <div class="foot__col">
+        <h5>Sources</h5>
+        <a href="https://www.youmind.com/gpt-image-2-prompts" rel="noopener">YouMind</a>
+        <a href="https://topai.ink/zh" rel="noopener">TopAI.ink</a>
+        <a href="https://evolink.ai/gpt-image-2-prompts" rel="noopener">EvoLink</a>
+        <a href="https://meigen.ai" rel="noopener">MeiGen</a>
+        <a href="https://github.com/EvoLinkAI/awesome-gpt-image-2-prompts" rel="noopener">awesome-img2</a>
+      </div>
+      <div class="foot__col foot__news">
+        <h5>Get the next batch</h5>
+        <p>Once a month. New prompts, fresh pickups, no spam.</p>
+        <form class="news" id="newsForm" onsubmit="event.preventDefault(); window.__capyToast && window.__capyToast('Thanks — we\\'ll be in touch.');">
+          <input type="email" placeholder="you@studio.com" required />
+          <button type="submit" class="btn btn--primary btn--sm">Subscribe</button>
+        </form>
+      </div>
+      <p class="foot__legal">© 2026 Happycapy · Prompts attributed to original authors where known. Not affiliated with OpenAI.</p>
+    </div>
+  </footer>
+
+  <!-- Floating Ask Capy FAB -->
+  <button class="fab" id="fab" aria-label="Ask Capy">
+    <span class="fab__avatar"><img src="assets/happycapy-icon.png" alt="" /></span>
+    <span class="fab__label">Ask Capy</span>
+  </button>
+
+  <!-- Capy chat slide-out -->
+  <aside class="chat" id="chat" aria-hidden="true">
+    <div class="chat__head">
+      <div class="chat__title">
+        <span class="chat__avatar"><img src="assets/happycapy-icon.png" alt="" /></span>
+        <div>
+          <strong>Happycapy</strong>
+          <small>img2 prompt assistant</small>
+        </div>
+      </div>
+      <button class="iconbtn" id="chatClose" aria-label="Close chat">
+        <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 6L6 18M6 6l12 12"/></svg>
+      </button>
+    </div>
+    <div class="chat__body" id="chatBody">
+      <div class="msg msg--bot">
+        Hi 👋 I'm Capy. Pick any prompt on the left and I'll help you run it through GPT Image 2 — or tweak it together first.
+      </div>
+    </div>
+    <form class="chat__form" id="chatForm">
+      <textarea id="chatInput" rows="3" placeholder="Type a message or pick a prompt …"></textarea>
+      <div class="chat__formRow">
+        <span class="chat__hint">⏎ to send · Shift+⏎ for newline</span>
+        <button class="btn btn--primary btn--sm" type="submit">
+          Send
+          <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 5l7 7-7 7"/></svg>
+        </button>
+      </div>
+    </form>
+  </aside>
+  <div class="scrim" id="scrim" hidden></div>
+
+  <!-- Toast -->
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+  <script src="js/app.js"></script>
+</body>
+</html>
