@@ -189,7 +189,7 @@ function cardHtml(p) {
       <img class="card__img"
            loading="lazy"
            alt="${escapeAttr(p.title)}"
-           src="${p.preview_image_url}"
+           src="${p.preview_image_url ? p.preview_image_url : `data:image/svg+xml;utf8,${fallbackSvg(p)}`}"
            onerror="this.onerror=null;this.src='data:image/svg+xml;utf8,${fallbackSvg(p)}'" />
       <div class="card__badges">
         ${featuredBadge}${diffBadge}${tplBadge}${refBadge}
