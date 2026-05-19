@@ -42,6 +42,8 @@ async function init() {
   state.data = data;
 
   $("#statTotal").textContent = data.meta.total;
+  const heroCount = $("#heroPromptCount");
+  if (heroCount) heroCount.textContent = data.meta.total;
   $("#heroDate").textContent = formatDate(data.meta.updated_at);
 
   renderCategoryChips();
