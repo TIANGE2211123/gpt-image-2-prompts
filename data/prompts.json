@@ -150,7 +150,11 @@
       "likes": 1248,
       "views": 24310,
       "copies": 4123,
-      "language": "en"
+      "language": "en",
+      "usage_category": "personal",
+      "primary_style": "realistic",
+      "tagline_en": "Magazine-grade portrait for headshots, profiles, and lifestyle.",
+      "tagline_zh": "杂志级人像，适合形象照、头像与生活方式内容。"
     },
     {
       "id": "sci-fi-movie-teaser-poster",
@@ -322,7 +326,11 @@
       "likes": 1340,
       "views": 19980,
       "copies": 3050,
-      "language": "en"
+      "language": "en",
+      "usage_category": "content",
+      "primary_style": "illustration",
+      "tagline_en": "Original character concept ready for game, animation, or fiction.",
+      "tagline_zh": "原创角色设定，可用于游戏、动画或小说。"
     },
     {
       "id": "browser-game-ad-creative-poster",
@@ -2798,7 +2806,11 @@
       "likes": 0,
       "views": 0,
       "copies": 0,
-      "language": "en"
+      "language": "en",
+      "usage_category": "personal",
+      "primary_style": "realistic",
+      "tagline_en": "Magazine-grade portrait for headshots, profiles, and lifestyle.",
+      "tagline_zh": "杂志级人像，适合形象照、头像与生活方式内容。"
     },
     {
       "id": "i2i-02-silicon-valley-founder-portrait",
@@ -2829,7 +2841,11 @@
       "likes": 0,
       "views": 0,
       "copies": 0,
-      "language": "en"
+      "language": "en",
+      "usage_category": "personal",
+      "primary_style": "realistic",
+      "tagline_en": "Magazine-grade portrait for headshots, profiles, and lifestyle.",
+      "tagline_zh": "杂志级人像，适合形象照、头像与生活方式内容。"
     },
     {
       "id": "i2i-03-korean-haima-studio-portrait",
@@ -2860,7 +2876,11 @@
       "likes": 0,
       "views": 0,
       "copies": 0,
-      "language": "en"
+      "language": "en",
+      "usage_category": "personal",
+      "primary_style": "realistic",
+      "tagline_en": "Magazine-grade portrait for headshots, profiles, and lifestyle.",
+      "tagline_zh": "杂志级人像，适合形象照、头像与生活方式内容。"
     },
     {
       "id": "i2i-04-sporty-girlfriend-photoshoot",
@@ -2891,7 +2911,11 @@
       "likes": 0,
       "views": 0,
       "copies": 0,
-      "language": "en"
+      "language": "en",
+      "usage_category": "personal",
+      "primary_style": "realistic",
+      "tagline_en": "Magazine-grade portrait for headshots, profiles, and lifestyle.",
+      "tagline_zh": "杂志级人像，适合形象照、头像与生活方式内容。"
     },
     {
       "id": "i2i-05-times-square-night-portrait",
@@ -2922,7 +2946,11 @@
       "likes": 0,
       "views": 0,
       "copies": 0,
-      "language": "en"
+      "language": "en",
+      "usage_category": "personal",
+      "primary_style": "realistic",
+      "tagline_en": "Magazine-grade portrait for headshots, profiles, and lifestyle.",
+      "tagline_zh": "杂志级人像，适合形象照、头像与生活方式内容。"
     },
     {
       "id": "i2i-06-rainy-city-noir",
@@ -2953,7 +2981,11 @@
       "likes": 0,
       "views": 0,
       "copies": 0,
-      "language": "en"
+      "language": "en",
+      "usage_category": "personal",
+      "primary_style": "realistic",
+      "tagline_en": "Magazine-grade portrait for headshots, profiles, and lifestyle.",
+      "tagline_zh": "杂志级人像，适合形象照、头像与生活方式内容。"
     },
     {
       "id": "i2i-07-paris-fashion-week-runway",
@@ -2984,7 +3016,11 @@
       "likes": 0,
       "views": 0,
       "copies": 0,
-      "language": "en"
+      "language": "en",
+      "usage_category": "marketing",
+      "primary_style": "realistic",
+      "tagline_en": "Editorial fashion visual ready for campaigns and lookbooks.",
+      "tagline_zh": "时尚编辑级视觉，可直接用于品牌活动与造型册。"
     },
     {
       "id": "i2i-08-70s-polaroid-family-photo",
@@ -3015,7 +3051,11 @@
       "likes": 0,
       "views": 0,
       "copies": 0,
-      "language": "en"
+      "language": "en",
+      "usage_category": "personal",
+      "primary_style": "realistic",
+      "tagline_en": "Magazine-grade portrait for headshots, profiles, and lifestyle.",
+      "tagline_zh": "杂志级人像，适合形象照、头像与生活方式内容。"
     },
     {
       "id": "i2i-09-1990s-magazine-cover-look",
@@ -3046,7 +3086,11 @@
       "likes": 0,
       "views": 0,
       "copies": 0,
-      "language": "en"
+      "language": "en",
+      "usage_category": "personal",
+      "primary_style": "realistic",
+      "tagline_en": "Magazine-grade portrait for headshots, profiles, and lifestyle.",
+      "tagline_zh": "杂志级人像，适合形象照、头像与生活方式内容。"
     },
     {
       "id": "i2i-10-y2k-bedroom-mirror-selfie",
@@ -3077,7 +3121,11 @@
       "likes": 0,
       "views": 0,
       "copies": 0,
-      "language": "en"
+      "language": "en",
+      "usage_category": "personal",
+      "primary_style": "realistic",
+      "tagline_en": "Magazine-grade portrait for headshots, profiles, and lifestyle.",
+      "tagline_zh": "杂志级人像，适合形象照、头像与生活方式内容。"
     },
     {
       "id": "i2i-11-victorian-daguerreotype-ghost",
@@ -3108,7 +3156,11 @@
       "likes": 0,
       "views": 0,
       "copies": 0,
-      "language": "en"
+      "language": "en",
+      "usage_category": "personal",
+      "primary_style": "realistic",
+      "tagline_en": "Magazine-grade portrait for headshots, profiles, and lifestyle.",
+      "tagline_zh": "杂志级人像，适合形象照、头像与生活方式内容。"
     },
     {
       "id": "i2i-12-1980s-arcade-hall-scene",
@@ -3139,7 +3191,11 @@
       "likes": 0,
       "views": 0,
       "copies": 0,
-      "language": "en"
+      "language": "en",
+      "usage_category": "personal",
+      "primary_style": "realistic",
+      "tagline_en": "Magazine-grade portrait for headshots, profiles, and lifestyle.",
+      "tagline_zh": "杂志级人像，适合形象照、头像与生活方式内容。"
     },
     {
       "id": "i2i-13-1-7-scale-collectible-figure",
@@ -3170,7 +3226,11 @@
       "likes": 0,
       "views": 0,
       "copies": 0,
-      "language": "en"
+      "language": "en",
+      "usage_category": "business",
+      "primary_style": "3d_render",
+      "tagline_en": "Production-grade 3D render for product, merch, or visualization.",
+      "tagline_zh": "高品质 3D 渲染，适合产品、周边、可视化展示。"
     },
     {
       "id": "i2i-14-knitted-plush-toy",
@@ -3201,7 +3261,11 @@
       "likes": 0,
       "views": 0,
       "copies": 0,
-      "language": "en"
+      "language": "en",
+      "usage_category": "business",
+      "primary_style": "3d_render",
+      "tagline_en": "Production-grade 3D render for product, merch, or visualization.",
+      "tagline_zh": "高品质 3D 渲染，适合产品、周边、可视化展示。"
     },
     {
       "id": "i2i-15-bronze-trophy-statue",
@@ -3232,7 +3296,11 @@
       "likes": 0,
       "views": 0,
       "copies": 0,
-      "language": "en"
+      "language": "en",
+      "usage_category": "business",
+      "primary_style": "3d_render",
+      "tagline_en": "Production-grade 3D render for product, merch, or visualization.",
+      "tagline_zh": "高品质 3D 渲染，适合产品、周边、可视化展示。"
     },
     {
       "id": "i2i-16-marble-renaissance-sculpture",
@@ -3263,7 +3331,11 @@
       "likes": 0,
       "views": 0,
       "copies": 0,
-      "language": "en"
+      "language": "en",
+      "usage_category": "business",
+      "primary_style": "3d_render",
+      "tagline_en": "Production-grade 3D render for product, merch, or visualization.",
+      "tagline_zh": "高品质 3D 渲染，适合产品、周边、可视化展示。"
     },
     {
       "id": "i2i-17-3d-q-version-app-icon",
@@ -3294,7 +3366,11 @@
       "likes": 0,
       "views": 0,
       "copies": 0,
-      "language": "en"
+      "language": "en",
+      "usage_category": "business",
+      "primary_style": "3d_render",
+      "tagline_en": "Production-grade 3D render for product, merch, or visualization.",
+      "tagline_zh": "高品质 3D 渲染，适合产品、周边、可视化展示。"
     },
     {
       "id": "i2i-18-studio-ghibli-anime-style",
@@ -3325,7 +3401,11 @@
       "likes": 0,
       "views": 0,
       "copies": 0,
-      "language": "en"
+      "language": "en",
+      "usage_category": "personal",
+      "primary_style": "illustration",
+      "tagline_en": "Transform any photo into a distinctive artistic style.",
+      "tagline_zh": "把照片变成特定艺术风格的视觉转换。"
     },
     {
       "id": "i2i-19-origami-paper-sculpture",
@@ -3356,7 +3436,11 @@
       "likes": 0,
       "views": 0,
       "copies": 0,
-      "language": "en"
+      "language": "en",
+      "usage_category": "personal",
+      "primary_style": "illustration",
+      "tagline_en": "Transform any photo into a distinctive artistic style.",
+      "tagline_zh": "把照片变成特定艺术风格的视觉转换。"
     },
     {
       "id": "i2i-20-street-graffiti-mural",
@@ -3387,7 +3471,11 @@
       "likes": 0,
       "views": 0,
       "copies": 0,
-      "language": "en"
+      "language": "en",
+      "usage_category": "personal",
+      "primary_style": "illustration",
+      "tagline_en": "Transform any photo into a distinctive artistic style.",
+      "tagline_zh": "把照片变成特定艺术风格的视觉转换。"
     },
     {
       "id": "i2i-21-holographic-y2k-effect",
@@ -3418,7 +3506,11 @@
       "likes": 0,
       "views": 0,
       "copies": 0,
-      "language": "en"
+      "language": "en",
+      "usage_category": "personal",
+      "primary_style": "illustration",
+      "tagline_en": "Transform any photo into a distinctive artistic style.",
+      "tagline_zh": "把照片变成特定艺术风格的视觉转换。"
     },
     {
       "id": "i2i-22-architecture-cardboard-model",
@@ -3449,7 +3541,11 @@
       "likes": 0,
       "views": 0,
       "copies": 0,
-      "language": "en"
+      "language": "en",
+      "usage_category": "content",
+      "primary_style": "illustration",
+      "tagline_en": "Imaginative visual for storytelling, content, or social posts.",
+      "tagline_zh": "富有想象力的创意视觉，适合内容创作与社交分享。"
     },
     {
       "id": "i2i-23-phone-screen-3d-illusion",
@@ -3480,7 +3576,11 @@
       "likes": 0,
       "views": 0,
       "copies": 0,
-      "language": "en"
+      "language": "en",
+      "usage_category": "content",
+      "primary_style": "illustration",
+      "tagline_en": "Imaginative visual for storytelling, content, or social posts.",
+      "tagline_zh": "富有想象力的创意视觉，适合内容创作与社交分享。"
     },
     {
       "id": "i2i-24-worm-s-eye-group-selfie",
@@ -3511,7 +3611,11 @@
       "likes": 0,
       "views": 0,
       "copies": 0,
-      "language": "en"
+      "language": "en",
+      "usage_category": "content",
+      "primary_style": "realistic",
+      "tagline_en": "Scroll-stopping visual designed to perform on social media.",
+      "tagline_zh": "自带传播力的社交视觉，专为信息流投放设计。"
     },
     {
       "id": "i2i-25-music-player-ui-overlay",
@@ -3542,7 +3646,11 @@
       "likes": 0,
       "views": 0,
       "copies": 0,
-      "language": "en"
+      "language": "en",
+      "usage_category": "content",
+      "primary_style": "realistic",
+      "tagline_en": "Scroll-stopping visual designed to perform on social media.",
+      "tagline_zh": "自带传播力的社交视觉，专为信息流投放设计。"
     },
     {
       "id": "i2i-26-cartoon-sticker-self",
@@ -3573,7 +3681,11 @@
       "likes": 0,
       "views": 0,
       "copies": 0,
-      "language": "en"
+      "language": "en",
+      "usage_category": "content",
+      "primary_style": "realistic",
+      "tagline_en": "Scroll-stopping visual designed to perform on social media.",
+      "tagline_zh": "自带传播力的社交视觉，专为信息流投放设计。"
     },
     {
       "id": "i2i-27-shop-window-cartoon-reflection",
@@ -3604,7 +3716,11 @@
       "likes": 0,
       "views": 0,
       "copies": 0,
-      "language": "en"
+      "language": "en",
+      "usage_category": "content",
+      "primary_style": "realistic",
+      "tagline_en": "Scroll-stopping visual designed to perform on social media.",
+      "tagline_zh": "自带传播力的社交视觉，专为信息流投放设计。"
     },
     {
       "id": "i2i-28-outfit-swap-from-reference-photo-2",
@@ -3635,7 +3751,11 @@
       "likes": 0,
       "views": 0,
       "copies": 0,
-      "language": "en"
+      "language": "en",
+      "usage_category": "marketing",
+      "primary_style": "realistic",
+      "tagline_en": "Editorial fashion visual ready for campaigns and lookbooks.",
+      "tagline_zh": "时尚编辑级视觉，可直接用于品牌活动与造型册。"
     },
     {
       "id": "i2i-29-vogue-editorial-fashion",
@@ -3666,7 +3786,11 @@
       "likes": 0,
       "views": 0,
       "copies": 0,
-      "language": "en"
+      "language": "en",
+      "usage_category": "marketing",
+      "primary_style": "realistic",
+      "tagline_en": "Editorial fashion visual ready for campaigns and lookbooks.",
+      "tagline_zh": "时尚编辑级视觉，可直接用于品牌活动与造型册。"
     },
     {
       "id": "i2i-30-tailored-business-suit-swap",
@@ -3697,7 +3821,11 @@
       "likes": 0,
       "views": 0,
       "copies": 0,
-      "language": "en"
+      "language": "en",
+      "usage_category": "marketing",
+      "primary_style": "realistic",
+      "tagline_en": "Editorial fashion visual ready for campaigns and lookbooks.",
+      "tagline_zh": "时尚编辑级视觉，可直接用于品牌活动与造型册。"
     },
     {
       "id": "i2i-31-beach-wave-hair-transformation",
@@ -3728,7 +3856,11 @@
       "likes": 0,
       "views": 0,
       "copies": 0,
-      "language": "en"
+      "language": "en",
+      "usage_category": "marketing",
+      "primary_style": "realistic",
+      "tagline_en": "Editorial fashion visual ready for campaigns and lookbooks.",
+      "tagline_zh": "时尚编辑级视觉，可直接用于品牌活动与造型册。"
     },
     {
       "id": "i2i-32-streetwear-style-conversion",
@@ -3759,7 +3891,11 @@
       "likes": 0,
       "views": 0,
       "copies": 0,
-      "language": "en"
+      "language": "en",
+      "usage_category": "marketing",
+      "primary_style": "realistic",
+      "tagline_en": "Editorial fashion visual ready for campaigns and lookbooks.",
+      "tagline_zh": "时尚编辑级视觉，可直接用于品牌活动与造型册。"
     },
     {
       "id": "i2i-33-beach-jewelry-display",
@@ -3790,7 +3926,11 @@
       "likes": 0,
       "views": 0,
       "copies": 0,
-      "language": "en"
+      "language": "en",
+      "usage_category": "business",
+      "primary_style": "realistic",
+      "tagline_en": "E-commerce-ready product shot with crisp lighting and clean composition.",
+      "tagline_zh": "电商级产品图，光线干净、构图利落。"
     },
     {
       "id": "i2i-34-boho-tote-bag-lifestyle",
@@ -3821,7 +3961,11 @@
       "likes": 0,
       "views": 0,
       "copies": 0,
-      "language": "en"
+      "language": "en",
+      "usage_category": "business",
+      "primary_style": "realistic",
+      "tagline_en": "E-commerce-ready product shot with crisp lighting and clean composition.",
+      "tagline_zh": "电商级产品图，光线干净、构图利落。"
     },
     {
       "id": "i2i-35-premium-3d-podium-product-shot",
@@ -3852,7 +3996,11 @@
       "likes": 0,
       "views": 0,
       "copies": 0,
-      "language": "en"
+      "language": "en",
+      "usage_category": "business",
+      "primary_style": "realistic",
+      "tagline_en": "E-commerce-ready product shot with crisp lighting and clean composition.",
+      "tagline_zh": "电商级产品图，光线干净、构图利落。"
     },
     {
       "id": "i2i-36-underwater-bottle-shot",
@@ -3883,7 +4031,11 @@
       "likes": 0,
       "views": 0,
       "copies": 0,
-      "language": "en"
+      "language": "en",
+      "usage_category": "business",
+      "primary_style": "realistic",
+      "tagline_en": "E-commerce-ready product shot with crisp lighting and clean composition.",
+      "tagline_zh": "电商级产品图，光线干净、构图利落。"
     },
     {
       "id": "i2i-37-marble-countertop-skincare",
@@ -3914,7 +4066,11 @@
       "likes": 0,
       "views": 0,
       "copies": 0,
-      "language": "en"
+      "language": "en",
+      "usage_category": "business",
+      "primary_style": "realistic",
+      "tagline_en": "E-commerce-ready product shot with crisp lighting and clean composition.",
+      "tagline_zh": "电商级产品图，光线干净、构图利落。"
     },
     {
       "id": "i2i-38-ecommerce-white-background",
@@ -3945,7 +4101,11 @@
       "likes": 0,
       "views": 0,
       "copies": 0,
-      "language": "en"
+      "language": "en",
+      "usage_category": "business",
+      "primary_style": "realistic",
+      "tagline_en": "E-commerce-ready product shot with crisp lighting and clean composition.",
+      "tagline_zh": "电商级产品图，光线干净、构图利落。"
     },
     {
       "id": "i2i-39-floating-hero-lipstick-shot",
@@ -3976,7 +4136,11 @@
       "likes": 0,
       "views": 0,
       "copies": 0,
-      "language": "en"
+      "language": "en",
+      "usage_category": "business",
+      "primary_style": "realistic",
+      "tagline_en": "E-commerce-ready product shot with crisp lighting and clean composition.",
+      "tagline_zh": "电商级产品图，光线干净、构图利落。"
     },
     {
       "id": "i2i-40-flatlay-kitchen-knife",
@@ -4007,7 +4171,11 @@
       "likes": 0,
       "views": 0,
       "copies": 0,
-      "language": "en"
+      "language": "en",
+      "usage_category": "business",
+      "primary_style": "realistic",
+      "tagline_en": "E-commerce-ready product shot with crisp lighting and clean composition.",
+      "tagline_zh": "电商级产品图，光线干净、构图利落。"
     },
     {
       "id": "i2i-41-background-replacement-sunset-city",
@@ -4038,7 +4206,11 @@
       "likes": 0,
       "views": 0,
       "copies": 0,
-      "language": "en"
+      "language": "en",
+      "usage_category": "personal",
+      "primary_style": "realistic",
+      "tagline_en": "Pro-grade photo enhancement and retouching for everyday photos.",
+      "tagline_zh": "专业级修图与增强，让普通照片立刻提升一档。"
     },
     {
       "id": "i2i-42-pure-white-studio-replace",
@@ -4069,7 +4241,11 @@
       "likes": 0,
       "views": 0,
       "copies": 0,
-      "language": "en"
+      "language": "en",
+      "usage_category": "personal",
+      "primary_style": "realistic",
+      "tagline_en": "Pro-grade photo enhancement and retouching for everyday photos.",
+      "tagline_zh": "专业级修图与增强，让普通照片立刻提升一档。"
     },
     {
       "id": "i2i-43-object-removal-cleanup",
@@ -4098,7 +4274,11 @@
       "likes": 0,
       "views": 0,
       "copies": 0,
-      "language": "en"
+      "language": "en",
+      "usage_category": "personal",
+      "primary_style": "realistic",
+      "tagline_en": "Pro-grade photo enhancement and retouching for everyday photos.",
+      "tagline_zh": "专业级修图与增强，让普通照片立刻提升一档。"
     },
     {
       "id": "i2i-44-cinematic-teal-orange-grade",
@@ -4129,7 +4309,11 @@
       "likes": 0,
       "views": 0,
       "copies": 0,
-      "language": "en"
+      "language": "en",
+      "usage_category": "personal",
+      "primary_style": "realistic",
+      "tagline_en": "Pro-grade photo enhancement and retouching for everyday photos.",
+      "tagline_zh": "专业级修图与增强，让普通照片立刻提升一档。"
     },
     {
       "id": "i2i-45-portrait-skin-eye-enhance",
@@ -4160,7 +4344,11 @@
       "likes": 0,
       "views": 0,
       "copies": 0,
-      "language": "en"
+      "language": "en",
+      "usage_category": "personal",
+      "primary_style": "realistic",
+      "tagline_en": "Pro-grade photo enhancement and retouching for everyday photos.",
+      "tagline_zh": "专业级修图与增强，让普通照片立刻提升一档。"
     },
     {
       "id": "i2i-46-movie-poster-treatment",
@@ -4191,7 +4379,11 @@
       "likes": 0,
       "views": 0,
       "copies": 0,
-      "language": "en"
+      "language": "en",
+      "usage_category": "personal",
+      "primary_style": "realistic",
+      "tagline_en": "Pro-grade photo enhancement and retouching for everyday photos.",
+      "tagline_zh": "专业级修图与增强，让普通照片立刻提升一档。"
     },
     {
       "id": "i2i-47-high-contrast-b-w-portrait",
@@ -4222,7 +4414,11 @@
       "likes": 0,
       "views": 0,
       "copies": 0,
-      "language": "en"
+      "language": "en",
+      "usage_category": "personal",
+      "primary_style": "realistic",
+      "tagline_en": "Pro-grade photo enhancement and retouching for everyday photos.",
+      "tagline_zh": "专业级修图与增强，让普通照片立刻提升一档。"
     },
     {
       "id": "i2i-48-before-after-split-compare",
@@ -4253,7 +4449,11 @@
       "likes": 0,
       "views": 0,
       "copies": 0,
-      "language": "en"
+      "language": "en",
+      "usage_category": "personal",
+      "primary_style": "realistic",
+      "tagline_en": "Pro-grade photo enhancement and retouching for everyday photos.",
+      "tagline_zh": "专业级修图与增强，让普通照片立刻提升一档。"
     },
     {
       "id": "i2i-49-line-drawing-sketch-on-notebook",
@@ -4284,7 +4484,11 @@
       "likes": 0,
       "views": 0,
       "copies": 0,
-      "language": "en"
+      "language": "en",
+      "usage_category": "content",
+      "primary_style": "illustration",
+      "tagline_en": "Imaginative visual for storytelling, content, or social posts.",
+      "tagline_zh": "富有想象力的创意视觉，适合内容创作与社交分享。"
     },
     {
       "id": "i2i-50-fantasy-magic-effect-aura",
@@ -4315,7 +4519,11 @@
       "likes": 0,
       "views": 0,
       "copies": 0,
-      "language": "en"
+      "language": "en",
+      "usage_category": "content",
+      "primary_style": "illustration",
+      "tagline_en": "Imaginative visual for storytelling, content, or social posts.",
+      "tagline_zh": "富有想象力的创意视觉，适合内容创作与社交分享。"
     }
   ]
 }
